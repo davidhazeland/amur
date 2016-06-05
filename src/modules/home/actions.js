@@ -6,3 +6,10 @@ export const clear = (parameter) => {
     parameter
   }
 };
+
+export const getInitialDataRequest = (parameter) => {
+  return {
+    type: actionTypes.GET_INITIAL_DATA_REQUEST,
+    ...parameter
+  }
+};

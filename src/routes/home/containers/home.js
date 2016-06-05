@@ -10,11 +10,17 @@ import { connect } from 'react-redux';
 import DocumentTitle from 'react-document-title';
 
 import {actions as myActions} from 'modules/home';
+import {actions as initialDataActions} from 'modules/initial-data';
 import HomeComponent from '../components/home';
 
 class Home extends Component {
+  componentDidMount() {
+    this.props.actions.getInitialDataRequest();
+  }
+
   componentWillUnmount() {
     this.props.actions.clear();
+    this.props.actions.clearInitialData();
   }
 
   render() {
@@ -31,13 +37,13 @@ Home.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
-function mapStateToProps() {
+function mapStateToProps(state) {
   return {
-
+    InitialData: state.InitialData
   };
 }
 function mapDispatchToProps(dispatch) {
-  const actions = Object.assign({}, myActions, {
+  const actions = Object.assign({}, initialDataActions, myActions, {
 
   });
   return { actions: bindActionCreators(actions, dispatch) };
