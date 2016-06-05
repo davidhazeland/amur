@@ -60,6 +60,7 @@ module.exports = {
       styles: srcPath + 'styles/',
       modules: srcPath + 'modules/',
       services: srcPath + 'services/',
+      data: srcPath + 'data/',
       api: srcPath + 'api/',
       utils: srcPath + 'utils/',
       helpers: srcPath + 'helpers/',
