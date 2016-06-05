@@ -1,0 +1,743 @@
+[{
+    "name": "Trứng gà sống",
+    "carb": "1.00",
+    "fat": "10.00",
+    "fatSaturated": "3.00",
+    "protein": "13.00",
+    "calo": "143.00"
+}, {
+    "name": "Trứng gà luộc",
+    "carb": "1.00",
+    "fat": "11.00",
+    "fatSaturated": "3.00",
+    "protein": "13.00",
+    "calo": "155.00"
+}, {
+    "name": "Trứng gà rán",
+    "carb": "1.00",
+    "fat": "15.00",
+    "fatSaturated": "4.00",
+    "protein": "14.00",
+    "calo": "196.00"
+}, {
+    "name": "Trứng gà omelet",
+    "carb": "1.00",
+    "fat": "12.00",
+    "fatSaturated": "3.00",
+    "protein": "11.00",
+    "calo": "157.00"
+}, {
+    "name": "Trứng gà kho, rim",
+    "carb": "1.00",
+    "fat": "10.00",
+    "fatSaturated": "3.00",
+    "protein": "13.00",
+    "calo": "142.00"
+}, {
+    "name": "Trứng gà bác",
+    "carb": "2.00",
+    "fat": "12.00",
+    "fatSaturated": "4.00",
+    "protein": "11.00",
+    "calo": "167.00"
+}, {
+    "name": "Trứng gà sống, lòng trắng",
+    "carb": "1.00",
+    "fat": "0.00",
+    "fatSaturated": "0.00",
+    "protein": "10.00",
+    "calo": "47.00"
+}, {
+    "name": "Trứng gà sống, lòng đỏ",
+    "carb": "4.00",
+    "fat": "27.00",
+    "fatSaturated": "10.00",
+    "protein": "16.00",
+    "calo": "317.00"
+}, {
+    "name": "Trứng vịt lộn",
+    "carb": "1.00",
+    "fat": "12.00",
+    "fatSaturated": "0.00",
+    "protein": "17.00",
+    "calo": "226.00"
+}, {
+    "name": "Trứng vịt sống",
+    "carb": "1.00",
+    "fat": "14.00",
+    "fatSaturated": "4.00",
+    "protein": "13.00",
+    "calo": "185.00"
+}, {
+    "name": "Trứng ngỗng sống",
+    "carb": "1.00",
+    "fat": "13.00",
+    "fatSaturated": "4.00",
+    "protein": "14.00",
+    "calo": "185.00"
+}, {
+    "name": "Trứng chim cút sống",
+    "carb": "0.00",
+    "fat": "11.00",
+    "fatSaturated": "4.00",
+    "protein": "13.00",
+    "calo": "158.00"
+}, {
+    "name": "Trứng gà tây",
+    "carb": "1.00",
+    "fat": "12.00",
+    "fatSaturated": "4.00",
+    "protein": "12.00",
+    "calo": "171.00"
+}, {
+    "name": "Ba chỉ / ba rọi (việt)",
+    "carb": "0.00",
+    "fat": "21.50",
+    "fatSaturated": "0.00",
+    "protein": "16.50",
+    "calo": "260.00"
+}, {
+    "name": "Ba chỉ / ba rọi (nước ngoài)",
+    "carb": "0.00",
+    "fat": "53.00",
+    "fatSaturated": "19.00",
+    "protein": "9.00",
+    "calo": "518.00"
+}, {
+    "name": "Thắt thăn lợn (nạc)",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.00",
+    "protein": "21.00",
+    "calo": "143.00"
+}, {
+    "name": "Thắt thăn lợn (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "13.00",
+    "fatSaturated": "4.00",
+    "protein": "20.00",
+    "calo": "198.00"
+}, {
+    "name": "Thịt vai (nạc)",
+    "carb": "0.00",
+    "fat": "7.00",
+    "fatSaturated": "2.00",
+    "protein": "20.00",
+    "calo": "148.00"
+}, {
+    "name": "Thịt vai (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "18.00",
+    "fatSaturated": "6.00",
+    "protein": "17.00",
+    "calo": "236.00"
+}, {
+    "name": "Thịt chân lợn (nạc)",
+    "carb": "0.00",
+    "fat": "5.50",
+    "fatSaturated": "2.00",
+    "protein": "20.50",
+    "calo": "136.00"
+}, {
+    "name": "Thịt chân lợn (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "19.00",
+    "fatSaturated": "7.00",
+    "protein": "17.50",
+    "calo": "245.00"
+}, {
+    "name": "Thịt chân lợn (nạc – phần phía hông)",
+    "carb": "0.00",
+    "fat": "5.00",
+    "fatSaturated": "2.00",
+    "protein": "21.00",
+    "calo": "137.00"
+}, {
+    "name": "Thịt chân lợn (nạc và mỡ – phần phía hông)",
+    "carb": "0.00",
+    "fat": "16.00",
+    "fatSaturated": "5.50",
+    "protein": "19.00",
+    "calo": "222.00"
+}, {
+    "name": "Thịt sườn (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "23.00",
+    "fatSaturated": "7.50",
+    "protein": "15.50",
+    "calo": "277.00"
+}, {
+    "name": "Móng lợn",
+    "carb": "0.00",
+    "fat": "13.00",
+    "fatSaturated": "4.00",
+    "protein": "23.00",
+    "calo": "212.00"
+}, {
+    "name": "Óc lợn",
+    "carb": "0.00",
+    "fat": "9.00",
+    "fatSaturated": "2.00",
+    "protein": "10.00",
+    "calo": "127.00"
+}, {
+    "name": "Tai lợn",
+    "carb": "1.00",
+    "fat": "15.00",
+    "fatSaturated": "5.00",
+    "protein": "22.00",
+    "calo": "234.00"
+}, {
+    "name": "Tim lợn",
+    "carb": "1.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "17.00",
+    "calo": "118.00"
+}, {
+    "name": "Thịt má lợn",
+    "carb": "0.00",
+    "fat": "70.00",
+    "fatSaturated": "25.00",
+    "protein": "6.00",
+    "calo": "655.00"
+}, {
+    "name": "Mỡ lá lợn",
+    "carb": "0.00",
+    "fat": "94.00",
+    "fatSaturated": "45.00",
+    "protein": "2.00",
+    "calo": "857.00"
+}, {
+    "name": "Thận lợn",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "16.00",
+    "calo": "100.00"
+}, {
+    "name": "Gan lợn",
+    "carb": "2.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "21.00",
+    "calo": "134.00"
+}, {
+    "name": "Phổi lợn",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "14.00",
+    "calo": "85.00"
+}, {
+    "name": "Lá lách",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "18.00",
+    "calo": "100.00"
+}, {
+    "name": "Dạ dày lợn",
+    "carb": "0.00",
+    "fat": "10.00",
+    "fatSaturated": "4.00",
+    "protein": "17.00",
+    "calo": "159.00"
+}, {
+    "name": "Đuôi lợn",
+    "carb": "0.00",
+    "fat": "33.00",
+    "fatSaturated": "12.00",
+    "protein": "18.00",
+    "calo": "378.00"
+}, {
+    "name": "Lưỡi lợn",
+    "carb": "0.00",
+    "fat": "17.00",
+    "fatSaturated": "6.00",
+    "protein": "16.00",
+    "calo": "225.00"
+}, {
+    "name": "Ruột non",
+    "carb": "0.00",
+    "fat": "17.00",
+    "fatSaturated": "8.00",
+    "protein": "8.00",
+    "calo": "182.00"
+}, {
+    "name": "Đùi gà, thịt",
+    "carb": "0.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "20.00",
+    "calo": "119.00"
+}, {
+    "name": "Đùi gà, thịt và da",
+    "carb": "0.00",
+    "fat": "15.00",
+    "fatSaturated": "4.00",
+    "protein": "17.00",
+    "calo": "211.00"
+}, {
+    "name": "Cánh gà, thịt",
+    "carb": "0.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "22.00",
+    "calo": "126.00"
+}, {
+    "name": "Cánh gà, thịt và da",
+    "carb": "0.00",
+    "fat": "16.00",
+    "fatSaturated": "4.00",
+    "protein": "18.00",
+    "calo": "222.00"
+}, {
+    "name": "Cẳng gà, thịt",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "21.00",
+    "calo": "119.00"
+}, {
+    "name": "Cẳng gà, thịt và da",
+    "carb": "0.00",
+    "fat": "9.00",
+    "fatSaturated": "2.00",
+    "protein": "19.00",
+    "calo": "161.00"
+}, {
+    "name": "Chân gà, thịt",
+    "carb": "0.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "20.00",
+    "calo": "120.00"
+}, {
+    "name": "Chân gà, thịt và da",
+    "carb": "0.00",
+    "fat": "12.00",
+    "fatSaturated": "3.00",
+    "protein": "18.00",
+    "calo": "187.00"
+}, {
+    "name": "Cổ gà, thịt",
+    "carb": "0.00",
+    "fat": "9.00",
+    "fatSaturated": "2.00",
+    "protein": "18.00",
+    "calo": "154.00"
+}, {
+    "name": "Cổ gà, thịt và da",
+    "carb": "0.00",
+    "fat": "26.00",
+    "fatSaturated": "7.00",
+    "protein": "14.00",
+    "calo": "297.00"
+}, {
+    "name": "Ức gà, thịt",
+    "carb": "0.00",
+    "fat": "1.00",
+    "fatSaturated": "0.00",
+    "protein": "23.00",
+    "calo": "110.00"
+}, {
+    "name": "Ức gà, thịt và da",
+    "carb": "0.00",
+    "fat": "9.00",
+    "fatSaturated": "3.00",
+    "protein": "21.00",
+    "calo": "172.00"
+}, {
+    "name": "Lưng gà, thịt",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.00",
+    "protein": "20.00",
+    "calo": "137.00"
+}, {
+    "name": "Lưng gà, thịt và mỡ",
+    "carb": "0.00",
+    "fat": "29.00",
+    "fatSaturated": "8.00",
+    "protein": "14.00",
+    "calo": "319.00"
+}, {
+    "name": "Tim gà",
+    "carb": "1.00",
+    "fat": "9.00",
+    "fatSaturated": "3.00",
+    "protein": "16.00",
+    "calo": "153.00"
+}, {
+    "name": "Gan gà",
+    "carb": "0.00",
+    "fat": "5.00",
+    "fatSaturated": "2.00",
+    "protein": "17.00",
+    "calo": "116.00"
+}, {
+    "name": "Thịt gà xay",
+    "carb": "0.00",
+    "fat": "8.00",
+    "fatSaturated": "2.00",
+    "protein": "17.00",
+    "calo": "143.00"
+}, {
+    "name": "Da gà",
+    "carb": "0.00",
+    "fat": "32.00",
+    "fatSaturated": "9.00",
+    "protein": "13.00",
+    "calo": "349.00"
+}, {
+    "name": "Vịt nuôi, thịt",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.00",
+    "protein": "18.00",
+    "calo": "132.00"
+}, {
+    "name": "Vịt nuôi, thịt và da",
+    "carb": "0.00",
+    "fat": "39.00",
+    "fatSaturated": "13.00",
+    "protein": "11.00",
+    "calo": "404.00"
+}, {
+    "name": "Vịt hoang dã, thịt và da",
+    "carb": "0.00",
+    "fat": "15.00",
+    "fatSaturated": "5.00",
+    "protein": "17.00",
+    "calo": "211.00"
+}, {
+    "name": "Gan vịt",
+    "carb": "4.00",
+    "fat": "5.00",
+    "fatSaturated": "1.00",
+    "protein": "19.00",
+    "calo": "136.00"
+}, {
+    "name": "Thịt thăn bò (phần nạc)",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.00",
+    "protein": "21.00",
+    "calo": "142.00"
+}, {
+    "name": "Thịt bò tươi (cả con – cả nạc lẫn mỡ)",
+    "carb": "0.00",
+    "fat": "22.50",
+    "fatSaturated": "9.00",
+    "protein": "17.50",
+    "calo": "278.00"
+}, {
+    "name": "Thịt ức bò (phần nạc)",
+    "carb": "0.00",
+    "fat": "7.00",
+    "fatSaturated": "2.50",
+    "protein": "21.00",
+    "calo": "155.00"
+}, {
+    "name": "Thịt ức bò (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "19.00",
+    "fatSaturated": "7.50",
+    "protein": "18.50",
+    "calo": "251.00"
+}, {
+    "name": "Sườn bò (nạc và mỡ)",
+    "carb": "0.00",
+    "fat": "26.00",
+    "fatSaturated": "11.00",
+    "protein": "17.00",
+    "calo": "306.00"
+}, {
+    "name": "Bắp bò",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.50",
+    "protein": "34.00",
+    "calo": "201.00"
+}, {
+    "name": "Lưỡi bò",
+    "carb": "4.00",
+    "fat": "16.00",
+    "fatSaturated": "7.00",
+    "protein": "15.00",
+    "calo": "224.00"
+}, {
+    "name": "Dạ dày bò",
+    "carb": "0.00",
+    "fat": "3.50",
+    "fatSaturated": "1.00",
+    "protein": "12.50",
+    "calo": "85.00"
+}, {
+    "name": "Mỡ bò",
+    "carb": "0.00",
+    "fat": "94.00",
+    "fatSaturated": "52.00",
+    "protein": "2.00",
+    "calo": "854.00"
+}, {
+    "name": "Phổi bò",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "16.00",
+    "calo": "92.00"
+}, {
+    "name": "Gan bò",
+    "carb": "4.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "20.00",
+    "calo": "135.00"
+}, {
+    "name": "Thận bò",
+    "carb": "0.00",
+    "fat": "3.00",
+    "fatSaturated": "1.00",
+    "protein": "18.00",
+    "calo": "103.00"
+}, {
+    "name": "Tim bò",
+    "carb": "0.00",
+    "fat": "3.50",
+    "fatSaturated": "1.70",
+    "protein": "18.00",
+    "calo": "112.00"
+}, {
+    "name": "Óc bò",
+    "carb": "1.00",
+    "fat": "11.00",
+    "fatSaturated": "2.50",
+    "protein": "11.00",
+    "calo": "143.00"
+}, {
+    "name": "Chim cút, thịt",
+    "carb": "0.00",
+    "fat": "5.00",
+    "fatSaturated": "1.00",
+    "protein": "22.00",
+    "calo": "134.00"
+}, {
+    "name": "Chim cút, thịt và mỡ",
+    "carb": "0.00",
+    "fat": "12.00",
+    "fatSaturated": "3.00",
+    "protein": "20.00",
+    "calo": "192.00"
+}, {
+    "name": "Chân ếch",
+    "carb": "0.00",
+    "fat": "0.00",
+    "fatSaturated": "0.00",
+    "protein": "16.00",
+    "calo": "73.00"
+}, {
+    "name": "Thịt dê",
+    "carb": "0.00",
+    "fat": "2.00",
+    "fatSaturated": "1.00",
+    "protein": "21.00",
+    "calo": "109.00"
+}, {
+    "name": "Thịt trâu",
+    "carb": "0.00",
+    "fat": "1.00",
+    "fatSaturated": "0.00",
+    "protein": "20.00",
+    "calo": "99.00"
+}, {
+    "name": "Cá chép",
+    "carb": "0.00",
+    "fat": "5.50",
+    "fatSaturated": "1.00",
+    "protein": "18.00",
+    "calo": "127.00"
+}, {
+    "name": "Cá đối",
+    "carb": "0.00",
+    "fat": "4.00",
+    "fatSaturated": "1.00",
+    "protein": "19.00",
+    "calo": "117.00"
+}, {
+    "name": "Cá thu đại tây dương",
+    "carb": "0.00",
+    "fat": "14.00",
+    "fatSaturated": "3.50",
+    "protein": "19.00",
+    "calo": "205.00"
+}, {
+    "name": "Cá thu thái bình dương",
+    "carb": "0.00",
+    "fat": "8.00",
+    "fatSaturated": "2.00",
+    "protein": "20.00",
+    "calo": "158.00"
+}, {
+    "name": "Cá thu tây ban nha",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "2.00",
+    "protein": "19.00",
+    "calo": "139.00"
+}, {
+    "name": "Cá thu vua",
+    "carb": "0.00",
+    "fat": "2.00",
+    "fatSaturated": "0.00",
+    "protein": "20.00",
+    "calo": "105.00"
+}, {
+    "name": "Cá rô phi",
+    "carb": "0.00",
+    "fat": "2.00",
+    "fatSaturated": "1.00",
+    "protein": "20.00",
+    "calo": "96.00"
+}, {
+    "name": "Cá nục (?)",
+    "carb": "0.50",
+    "fat": "7.00",
+    "fatSaturated": "0.00",
+    "protein": "24.00",
+    "calo": "114.00"
+}, {
+    "name": "Cá Tra/basa (?)",
+    "carb": "0.00",
+    "fat": "0.00",
+    "fatSaturated": "2.00",
+    "protein": "23.00",
+    "calo": "125,170.00"
+}, {
+    "name": "Cá mè",
+    "carb": "0.00",
+    "fat": "6.00",
+    "fatSaturated": "1.00",
+    "protein": "18.00",
+    "calo": "127.00"
+}, {
+    "name": "Cá chim",
+    "carb": "0.00",
+    "fat": "8.00",
+    "fatSaturated": "3.00",
+    "protein": "17.00",
+    "calo": "146.00"
+}, {
+    "name": "Cá mú",
+    "carb": "0.00",
+    "fat": "1.00",
+    "fatSaturated": "0.00",
+    "protein": "19.00",
+    "calo": "92.00"
+}, {
+    "name": "Cá cơm",
+    "carb": "0.00",
+    "fat": "4.80",
+    "fatSaturated": "1.30",
+    "protein": "20.40",
+    "calo": "131.00"
+}, {
+    "name": "Lươn, cá chình",
+    "carb": "0.00",
+    "fat": "12.00",
+    "fatSaturated": "2.50",
+    "protein": "19.00",
+    "calo": "184.00"
+}, {
+    "name": "Trứng cá",
+    "carb": "4.00",
+    "fat": "18.00",
+    "fatSaturated": "4.00",
+    "protein": "25.00",
+    "calo": "252.00"
+}, {
+    "name": "Tôm",
+    "carb": "0.00",
+    "fat": "0.00",
+    "fatSaturated": "0.00",
+    "protein": "16.00",
+    "calo": "100.00"
+}, {
+    "name": "Tôm hùm phương bắc",
+    "carb": "0.70",
+    "fat": "0.70",
+    "fatSaturated": "0.00",
+    "protein": "19.00",
+    "calo": "90.00"
+}, {
+    "name": "Tôm hùm gai",
+    "carb": "2.40",
+    "fat": "1.50",
+    "fatSaturated": "0.00",
+    "protein": "20.50",
+    "calo": "112.00"
+}, {
+    "name": "Cua biển (xanh)",
+    "carb": "0.00",
+    "fat": "2.00",
+    "fatSaturated": "0.00",
+    "protein": "18.00",
+    "calo": "87.00"
+}, {
+    "name": "Cua vua Alaska",
+    "carb": "0.00",
+    "fat": "0.60",
+    "fatSaturated": "0.00",
+    "protein": "18.00",
+    "calo": "84.00"
+}, {
+    "name": "Cua nữ hoàng",
+    "carb": "0.00",
+    "fat": "1.00",
+    "fatSaturated": "0.00",
+    "protein": "19.00",
+    "calo": "91.00"
+}, {
+    "name": "Mực ống",
+    "carb": "3.50",
+    "fat": "0.00",
+    "fatSaturated": "0.00",
+    "protein": "14.00",
+    "calo": "93.00"
+}, {
+    "name": "Mực nang",
+    "carb": "1.20",
+    "fat": "1.20",
+    "fatSaturated": "0.00",
+    "protein": "16.50",
+    "calo": "79.00"
+}, {
+    "name": "Ốc",
+    "carb": "3.50",
+    "fat": "0.00",
+    "fatSaturated": "0.00",
+    "protein": "18.00",
+    "calo": "89.00"
+}, {
+    "name": "Hến",
+    "carb": "4.00",
+    "fat": "2.00",
+    "fatSaturated": "0.70",
+    "protein": "12.00",
+    "calo": "86.00"
+}, {
+    "name": "Sò",
+    "carb": "5.00",
+    "fat": "0.00",
+    "fatSaturated": "1.00",
+    "protein": "13.00",
+    "calo": "79.00"
+}, {
+    "name": "Nghêu",
+    "carb": "3.00",
+    "fat": "1.00",
+    "fatSaturated": "0.00",
+    "protein": "13.00",
+    "calo": "74.00"
+}]
