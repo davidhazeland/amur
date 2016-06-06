@@ -39,7 +39,11 @@ Home.propTypes = {
 
 function mapStateToProps(state) {
   return {
-    InitialData: state.InitialData
+    InitialData: {
+      animals: [],
+      vegetables: [],
+      ...state.InitialData
+    }
   };
 }
 function mapDispatchToProps(dispatch) {
