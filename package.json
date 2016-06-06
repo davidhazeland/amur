@@ -64,6 +64,8 @@
   "dependencies": {
     "babel-polyfill": "6.6.1",
     "bluebird": "3.3.3",
+    "bootstrap-loader": "^1.0.10",
+    "bootstrap-sass": "^3.3.6",
     "classnames": "2.2.3",
     "core-js": "^2.0.0",
     "deep-freeze": "0.0.1",

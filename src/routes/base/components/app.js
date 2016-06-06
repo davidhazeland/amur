@@ -1,4 +1,5 @@
 require('normalize.css');
+require('bootstrap-loader');
 require('styles/index.scss');
 
 import createContent from './content';
