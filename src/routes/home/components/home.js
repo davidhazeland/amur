@@ -3,6 +3,7 @@
 import React from 'react';
 import {pick} from 'lodash/object';
 
+import Calculator from './calculator';
 import FoodList from './food-list';
 
 const Home = (props) => {
@@ -18,11 +19,11 @@ const Home = (props) => {
   return (
     <div className="Home container">
       <div className="ui grid">
-        <div className="seven wide column">
-
-        </div>
-        <div className="nine wide column">
+        <div className="eight wide column">
           <FoodList data={data} />
+        </div>
+        <div className="eight wide column">
+          <Calculator />
         </div>
       </div>
     </div>
