@@ -17,14 +17,14 @@ const Home = (props) => {
 
   return (
     <div className="Home container">
-      <div className="row">
-        <div className="col-md-9">
+      <div className="ui grid">
+        <div className="seven wide column">
+
+        </div>
+        <div className="nine wide column">
           <FoodList data={data} />
         </div>
-        <div class="col-md-6">
-        </div>
       </div>
-
     </div>
   );
 };
