@@ -8,10 +8,10 @@ const FoodList = ({data}) => {
     <div className="FoodList">
       <BootstrapTable data={data} striped={true} hover={true} pagination>
           <TableHeaderColumn dataField="name" isKey={true} filter={ { type: 'TextFilter', delay: 300, placeholder: 'Search' } } dataAlign="center"></TableHeaderColumn>
-          <TableHeaderColumn dataField="carb" dataSort={true} width="100">Carb</TableHeaderColumn>
-          <TableHeaderColumn dataField="fat" dataSort={true} width="100">Fat</TableHeaderColumn>
+          <TableHeaderColumn dataField="carb" dataSort={true} width="70">Carb</TableHeaderColumn>
+          <TableHeaderColumn dataField="fat" dataSort={true} width="70">Fat</TableHeaderColumn>
           <TableHeaderColumn dataField="protein" dataSort={true} sortFunc={ sortByName } width="100">Protein</TableHeaderColumn>
-          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortByName } width="100">Calo</TableHeaderColumn>
+          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortByName } width="70">Calo</TableHeaderColumn>
       </BootstrapTable>
     </div>
   );
