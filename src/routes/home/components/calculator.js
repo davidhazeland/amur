@@ -6,7 +6,7 @@ const Calculator = () => {
   return (
     <div className="Calculator">
       <div className="ui icon input">
-        <input type="text" placeholder="300g bắp bò" />
+        <input type="text" placeholder="300g bắp bò..." />
         <i className="search icon"></i>
       </div>
 

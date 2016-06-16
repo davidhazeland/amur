@@ -5,9 +5,9 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 
 const FoodList = ({data}) => {
   const options = {
-    paginationSize: 3
+    paginationSize: 2
   };
-  
+
   return (
     <div className="FoodList">
       <BootstrapTable data={data} striped={true} hover={true} pagination options={options}>
