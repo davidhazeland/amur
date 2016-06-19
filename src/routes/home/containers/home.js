@@ -40,8 +40,7 @@ Home.propTypes = {
 function mapStateToProps(state) {
   return {
     InitialData: {
-      animals: [],
-      vegetables: [],
+      foodList: [],
       ...state.InitialData
     }
   };

@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-import {pick} from 'lodash/object';
 
 import Calculator from './calculator';
 import FoodList from './food-list';
@@ -9,21 +8,22 @@ import FoodList from './food-list';
 const Home = (props) => {
   const {
     InitialData: {
-      animals,
-      vegetables
+      foodList
     }
   } = props;
 
-  const data = animals.concat(vegetables).map(item => pick(item, ['name', 'carb', 'fat', 'protein', 'calo']));
+  function addFood(data) {
+    console.log(data);
+  }
 
   return (
     <div className="Home container">
       <div className="ui grid">
         <div className="eight wide column">
-          <FoodList data={data} />
+          <FoodList data={foodList} />
         </div>
         <div className="eight wide column">
-          <Calculator />
+          <Calculator addFood={addFood}/>
         </div>
       </div>
     </div>

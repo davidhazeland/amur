@@ -1,12 +1,15 @@
 'use strict';
 
 import {call, put, take, fork} from 'redux-saga';
+import {pick} from 'lodash/object';
 
 import * as actionTypes from '../action-types';
 import {actions as initialDataActions} from 'modules/initial-data';
 
 import {fetch as fetchAnimals} from 'api/animal';
 import {fetch as fetchVegetables} from 'api/vegetable';
+
+const properties = ['name', 'carb', 'fat', 'protein', 'calo'];
 
 export function* handle() {
   try {
@@ -18,13 +21,17 @@ export function* handle() {
       call(fetchVegetables)
     ];
 
+    const foodList = [].concat(animals, vegetables).map((item, index) => ({
+      id: index,
+      ...pick(item, properties)
+    }));
+
     yield put(initialDataActions.set({
-      animals,
-      vegetables
+      foodList
     }));
   }
   catch (error) {
-    
+
   }
 }
 
