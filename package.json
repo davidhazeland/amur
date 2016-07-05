@@ -75,6 +75,7 @@
     "normalize.css": "^3.0.3",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
+    "react-autocomplete": "1.0.1",
     "react-bootstrap-table": "^2.3.4",
     "react-document-title": "2.0.1",
     "react-dom": "^15.1.0",

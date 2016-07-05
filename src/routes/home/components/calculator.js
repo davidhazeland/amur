@@ -2,13 +2,20 @@
 
 import React from 'react';
 
-const Calculator = () => {
+import Search from './calculator-search';
+
+const Calculator = (props) => {
+  const {
+    data
+  } = props;
+
+  function handleSelectFood() {
+
+  }
+
   return (
     <div className="Calculator">
-      <div className="ui icon input">
-        <input type="text" placeholder="300g bắp bò..." />
-        <i className="search icon"></i>
-      </div>
+      <Search foodList={data} onSelect={handleSelectFood}/>
 
       <table className="ui orange table">
         <thead>
