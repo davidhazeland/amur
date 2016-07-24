@@ -35,7 +35,7 @@ class CalculatorSearch extends Component {
             const {quantity} = resolve(this.state.value);
             onSelect({
               quantity,
-              item
+              food: item
             });
             this.setState({
               value: ''

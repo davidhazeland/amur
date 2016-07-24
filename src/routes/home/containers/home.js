@@ -42,7 +42,8 @@ function mapStateToProps(state) {
     InitialData: {
       foodList: [],
       ...state.InitialData
-    }
+    },
+    Home: state.Home
   };
 }
 function mapDispatchToProps(dispatch) {

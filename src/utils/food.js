@@ -25,3 +25,7 @@ export function getName(data) {
   splits.shift();
   return splits.join(' ');
 }
+
+export function format(quantity) {
+  return math.unit(`${quantity}g`).format();
+}

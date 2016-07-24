@@ -9,12 +9,14 @@ const Home = (props) => {
   const {
     InitialData: {
       foodList
+    },
+    Home: {
+      mealList
+    },
+    actions: {
+      addMeal
     }
   } = props;
-
-  function addFood(data) {
-    console.log(data);
-  }
 
   return (
     <div className="Home container">
@@ -23,7 +25,7 @@ const Home = (props) => {
           <FoodList data={foodList} />
         </div>
         <div className="eight wide column">
-          <Calculator addFood={addFood} data={foodList}/>
+          <Calculator addMeal={addMeal} mealList={mealList} data={foodList}/>
         </div>
       </div>
     </div>
