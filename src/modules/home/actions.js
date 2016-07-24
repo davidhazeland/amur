@@ -13,3 +13,10 @@ export const getInitialDataRequest = (parameter) => {
     ...parameter
   }
 };
+
+export const addMeal = (parameter) => {
+  return {
+    type: actionTypes.ADD_MEAL,
+    ...parameter
+  }
+};

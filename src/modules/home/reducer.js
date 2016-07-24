@@ -4,7 +4,7 @@ import freeze from 'deep-freeze';
 import * as actionTypes from './action-types';
 
 const initialState = freeze({
-
+  mealList: []
 });
 
 export default function (state = initialState, action) {
@@ -14,6 +14,16 @@ export default function (state = initialState, action) {
     case actionTypes.CLEAR: {
       return initialState;
     } break;
+
+    case actionTypes.ADD_MEAL: {
+      return freeze({
+        ...state,
+        mealList: [
+          ...state.mealList,
+          action.meal
+        ]
+      });
+    }
 
     default:
     {
