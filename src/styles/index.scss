@@ -1,0 +1,27 @@
+@import "~semantic-ui-css/semantic.css";
+
+.Home {
+  margin-top: 40px;
+}
+
+
+.Calculator {
+  .prompt {
+    width: 300px;
+    border-radius: 4px !important;
+  }
+}
+
+.CalculatorSearch {
+  .results {
+    max-height: 289px;
+    overflow: hidden;
+    .result {
+      .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

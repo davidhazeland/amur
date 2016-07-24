@@ -1,0 +1,1184 @@
+[{
+    "name": "Bí đao",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "0.00",
+    "calo": "14.00"
+}, {
+    "name": "Bí xanh (mùa hè)",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "16.00"
+}, {
+    "name": "Bí xanh (baby)",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "21.00"
+}, {
+    "name": "Bưởi",
+    "carb": "10.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "38.00"
+}, {
+    "name": "Bưởi chùm",
+    "carb": "8.00",
+    "xo": "1.30",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "33.00"
+}, {
+    "name": "Bắp ngô ngọt",
+    "carb": "19.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "86.00"
+}, {
+    "name": "Bầu",
+    "carb": "4.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "20.00"
+}, {
+    "name": "Bông hẹ",
+    "carb": "4.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "30.00"
+}, {
+    "name": "Củ hành",
+    "carb": "9.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "40.00"
+}, {
+    "name": "Cần tây",
+    "carb": "4.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "16.00"
+}, {
+    "name": "Cây bạc hà lục",
+    "carb": "8.00",
+    "xo": "7.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "44.00"
+}, {
+    "name": "Cây bạc hà cay",
+    "carb": "15.00",
+    "xo": "8.00",
+    "fat": "1.00",
+    "protein": "4.00",
+    "calo": "70.00"
+}, {
+    "name": "Củ diếp xoắn",
+    "carb": "18.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "73.00"
+}, {
+    "name": "Cải thìa",
+    "carb": "2.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "9.00"
+}, {
+    "name": "Cải bắp",
+    "carb": "6.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "25.00"
+}, {
+    "name": "Cải thảo",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "16.00"
+}, {
+    "name": "Cải xoong / xà lách xoong",
+    "carb": "1.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "11.00"
+}, {
+    "name": "Cải cúc / rau tần ô",
+    "carb": "3.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "24.00"
+}, {
+    "name": "Cải xoăn Kale",
+    "carb": "10.50",
+    "xo": "1.50",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "49.00"
+}, {
+    "name": "Cải ngồng/cải rổ",
+    "carb": "4.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "1.00",
+    "calo": "22.00"
+}, {
+    "name": "Cải xanh turnips",
+    "carb": "7.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "32.00"
+}, {
+    "name": "Cà tím",
+    "carb": "6.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "24.00"
+}, {
+    "name": "Cây đại hoàng",
+    "carb": "5.00",
+    "xo": "1.50",
+    "fat": "0.00",
+    "protein": "0.80",
+    "calo": "21.00"
+}, {
+    "name": "Cây atisô",
+    "carb": "11.00",
+    "xo": "5.00",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "47.00"
+}, {
+    "name": "Củ đậu",
+    "carb": "9.00",
+    "xo": "5.00",
+    "fat": "0.00",
+    "protein": "0.80",
+    "calo": "38.00"
+}, {
+    "name": "Cà chua xanh",
+    "carb": "5.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "23.00"
+}, {
+    "name": "Cà chua vàng / cam",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "15.00"
+}, {
+    "name": "Củ cái trắng",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "14.00"
+}, {
+    "name": "Chanh (quả)",
+    "carb": "11.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "30.00"
+}, {
+    "name": "Chanh dây",
+    "carb": "23.00",
+    "xo": "10.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "97.00"
+}, {
+    "name": "Cam (quả)",
+    "carb": "12.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "47.00"
+}, {
+    "name": "Chuối",
+    "carb": "23.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "89.00"
+}, {
+    "name": "Chôm chôm",
+    "carb": "21.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "82.00"
+}, {
+    "name": "Củ nghệ (gia vị)",
+    "carb": "65.00",
+    "xo": "21.00",
+    "fat": "10.00",
+    "protein": "8.00",
+    "calo": "354.00"
+}, {
+    "name": "Củ dền",
+    "carb": "10.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "43.00"
+}, {
+    "name": "Cà rốt",
+    "carb": "10.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "41.00"
+}, {
+    "name": "Củ từ",
+    "carb": "28.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "118.00"
+}, {
+    "name": "Dọc mùng",
+    "carb": "3.80",
+    "xo": "0.50",
+    "fat": "0.00",
+    "protein": "0.25",
+    "calo": "14.00"
+}, {
+    "name": "Dưa cải bẹ",
+    "carb": "4.50",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "17.00"
+}, {
+    "name": "Dưa chuột gọt vỏ",
+    "carb": "2.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "12.00"
+}, {
+    "name": "Dưa chuột có vỏ",
+    "carb": "4.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "15.00"
+}, {
+    "name": "Dứa",
+    "carb": "13.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "50.00"
+}, {
+    "name": "Dưa hấu",
+    "carb": "8.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "30.00"
+}, {
+    "name": "Dưa vàng (casaba)",
+    "carb": "7.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "28.00"
+}, {
+    "name": "Dưa lưới (honeydew), dưa lê",
+    "carb": "9.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "36.00"
+}, {
+    "name": "Dưa ruột vàng (cantaloupe)",
+    "carb": "9.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "34.00"
+}, {
+    "name": "Dừa, cùi",
+    "carb": "15.00",
+    "xo": "9.00",
+    "fat": "33.00",
+    "protein": "3.00",
+    "calo": "354.00"
+}, {
+    "name": "Dừa, nước",
+    "carb": "4.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "19.00"
+}, {
+    "name": "Dưa gang",
+    "carb": "7.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "28.00"
+}, {
+    "name": "Diếp Lô Lô",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.50",
+    "calo": "12.00"
+}, {
+    "name": "Dâu tây",
+    "carb": "8.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "32.00"
+}, {
+    "name": "Dưa cải bắp",
+    "carb": "5.00",
+    "xo": "1.50",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "25.00"
+}, {
+    "name": "Đậu phộng, lạc sống",
+    "carb": "16.00",
+    "xo": "8.00",
+    "fat": "49.00",
+    "protein": "26.00",
+    "calo": "567.00"
+}, {
+    "name": "Đậu nành (xanh)",
+    "carb": "11.00",
+    "xo": "4.00",
+    "fat": "7.00",
+    "protein": "13.00",
+    "calo": "147.00"
+}, {
+    "name": "Đậu côve / đậu đũa",
+    "carb": "7.00",
+    "xo": "3.50",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "31.00"
+}, {
+    "name": "Đậu / đỗ đen",
+    "carb": "62.00",
+    "xo": "15.00",
+    "fat": "1.00",
+    "protein": "22.00",
+    "calo": "341.00"
+}, {
+    "name": "Đậu / đỗ đỏ",
+    "carb": "61.00",
+    "xo": "15.00",
+    "fat": "1.00",
+    "protein": "23.00",
+    "calo": "337.00"
+}, {
+    "name": "Đậu / đỗ xanh",
+    "carb": "63.00",
+    "xo": "16.00",
+    "fat": "1.00",
+    "protein": "24.00",
+    "calo": "347.00"
+}, {
+    "name": "Đậu / đỗ trắng nhỏ",
+    "carb": "62.00",
+    "xo": "25.00",
+    "fat": "1.00",
+    "protein": "21.00",
+    "calo": "336.00"
+}, {
+    "name": "Đậu / đỗ trắng",
+    "carb": "60.00",
+    "xo": "15.00",
+    "fat": "1.00",
+    "protein": "23.00",
+    "calo": "333.00"
+}, {
+    "name": "Đậu rồng (hạt)",
+    "carb": "42.00",
+    "xo": "0.00",
+    "fat": "16.00",
+    "protein": "30.00",
+    "calo": "409.00"
+}, {
+    "name": "Đậu rồng (lá)",
+    "carb": "14.00",
+    "xo": "0.00",
+    "fat": "1.00",
+    "protein": "6.00",
+    "calo": "74.00"
+}, {
+    "name": "Đậu phụ lụa mềm",
+    "carb": "3.00",
+    "xo": "0.00",
+    "fat": "3.00",
+    "protein": "5.00",
+    "calo": "55.00"
+}, {
+    "name": "Đậu phụ lụa rắn",
+    "carb": "2.00",
+    "xo": "0.00",
+    "fat": "3.00",
+    "protein": "7.00",
+    "calo": "62.00"
+}, {
+    "name": "Đậu phụ okara",
+    "carb": "13.00",
+    "xo": "0.00",
+    "fat": "2.00",
+    "protein": "3.00",
+    "calo": "77.00"
+}, {
+    "name": "Đậu phụ rán",
+    "carb": "10.00",
+    "xo": "4.00",
+    "fat": "20.00",
+    "protein": "17.00",
+    "calo": "271.00"
+}, {
+    "name": "Đu đủ",
+    "carb": "10.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "39.00"
+}, {
+    "name": "Giá đỗ",
+    "carb": "7.50",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "5.50",
+    "calo": "44.00"
+}, {
+    "name": "Gừng",
+    "carb": "18.00",
+    "xo": "2.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "80.00"
+}, {
+    "name": "Gạo nâu / gạo lức",
+    "carb": "77.00",
+    "xo": "4.00",
+    "fat": "3.00",
+    "protein": "8.00",
+    "calo": "370.00"
+}, {
+    "name": "Gạo nếp",
+    "carb": "82.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "7.00",
+    "calo": "370.00"
+}, {
+    "name": "Gạo trắng",
+    "carb": "79.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "6.00",
+    "calo": "360.00"
+}, {
+    "name": "Húng quế",
+    "carb": "3.00",
+    "xo": "2.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "23.00"
+}, {
+    "name": "Hoa chuối",
+    "carb": "5.50",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.50",
+    "calo": "20.00"
+}, {
+    "name": "Hẹ lá",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "16.00"
+}, {
+    "name": "Hồng xiêm / Sa bô chê",
+    "carb": "20.00",
+    "xo": "5.00",
+    "fat": "1.00",
+    "protein": "0.00",
+    "calo": "83.00"
+}, {
+    "name": "Hành lá",
+    "carb": "7.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "3.00"
+}, {
+    "name": "Hạt điều",
+    "carb": "33.00",
+    "xo": "3.00",
+    "fat": "44.00",
+    "protein": "8.00",
+    "calo": "553.00"
+}, {
+    "name": "Hạnh nhân",
+    "carb": "22.00",
+    "xo": "12.00",
+    "fat": "49.00",
+    "protein": "21.00",
+    "calo": "575.00"
+}, {
+    "name": "Hạt sen",
+    "carb": "17.00",
+    "xo": "0.00",
+    "fat": "1.00",
+    "protein": "4.00",
+    "calo": "89.00"
+}, {
+    "name": "Hạt hướng dương (phơi khô)",
+    "carb": "20.00",
+    "xo": "9.00",
+    "fat": "51.00",
+    "protein": "21.00",
+    "calo": "584.00"
+}, {
+    "name": "Hột é",
+    "carb": "44.00",
+    "xo": "38.00",
+    "fat": "31.00",
+    "protein": "16.00",
+    "calo": "490.00"
+}, {
+    "name": "Khoai sọ",
+    "carb": "26.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "112.00"
+}, {
+    "name": "Khế",
+    "carb": "7.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "31.00"
+}, {
+    "name": "Khổ qua (quả)",
+    "carb": "4.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "17.00"
+}, {
+    "name": "Khổ qua (lá)",
+    "carb": "3.00",
+    "xo": "0.00",
+    "fat": "1.00",
+    "protein": "5.00",
+    "calo": "30.00"
+}, {
+    "name": "Kiwi",
+    "carb": "15.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "1.00",
+    "calo": "61.00"
+}, {
+    "name": "Khoai tây",
+    "carb": "18.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "77.00"
+}, {
+    "name": "Khoai lang",
+    "carb": "20.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "86.00"
+}, {
+    "name": "Lá diếp xoắn",
+    "carb": "5.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "23.00"
+}, {
+    "name": "Lê",
+    "carb": "11.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "0.00",
+    "calo": "42.00"
+}, {
+    "name": "Lạc",
+    "carb": "16.00",
+    "xo": "8.00",
+    "fat": "49.00",
+    "protein": "26.00",
+    "calo": "567.00"
+}, {
+    "name": "Me chua",
+    "carb": "7.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "27.00"
+}, {
+    "name": "Mướp",
+    "carb": "3.50",
+    "xo": "0.50",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "16.00"
+}, {
+    "name": "Mướp tây / đậu bắp",
+    "carb": "7.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "31.00"
+}, {
+    "name": "Măng tre",
+    "carb": "6.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "14.00"
+}, {
+    "name": "Mít",
+    "carb": "24.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "94.00"
+}, {
+    "name": "Măng tây",
+    "carb": "4.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "20.00"
+}, {
+    "name": "Mận",
+    "carb": "11.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "46.00"
+}, {
+    "name": "Mộc nhĩ",
+    "carb": "72.00",
+    "xo": "7.00",
+    "fat": "0.00",
+    "protein": "11.00",
+    "calo": "312.00"
+}, {
+    "name": "Ngó sen",
+    "carb": "17.20",
+    "xo": "4.90",
+    "fat": "0.10",
+    "protein": "2.60",
+    "calo": "74.00"
+}, {
+    "name": "Nấm thường tươi",
+    "carb": "5.70",
+    "xo": "3.50",
+    "fat": "0.80",
+    "protein": "4.60",
+    "calo": "35.00"
+}, {
+    "name": "Nấm mỡ",
+    "carb": "4.50",
+    "xo": "1.10",
+    "fat": "0.30",
+    "protein": "4.00",
+    "calo": "33.00"
+}, {
+    "name": "Nấm rơm",
+    "carb": "4.50",
+    "xo": "1.10",
+    "fat": "0.30",
+    "protein": "4.00",
+    "calo": "31.00"
+}, {
+    "name": "Nấm hương tươi",
+    "carb": "6.00",
+    "xo": "3.00",
+    "fat": "0.50",
+    "protein": "5.50",
+    "calo": "40.00"
+}, {
+    "name": "Ngải cứu (?)",
+    "carb": "8.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "5.00",
+    "calo": "0.00"
+}, {
+    "name": "Ngọn xu xu",
+    "carb": "6.00",
+    "xo": "1.00",
+    "fat": "0.40",
+    "protein": "0.30",
+    "calo": "18.00"
+}, {
+    "name": "Nho",
+    "carb": "18.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "69.00"
+}, {
+    "name": "Nước chanh",
+    "carb": "9.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "0.00",
+    "calo": "25.00"
+}, {
+    "name": "Nước cam",
+    "carb": "10.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "45.00"
+}, {
+    "name": "Ớt xanh",
+    "carb": "9.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "40.00"
+}, {
+    "name": "Ớt xanh ngọt",
+    "carb": "5.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "20.00"
+}, {
+    "name": "Ớt đỏ ngọt",
+    "carb": "6.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "31.00"
+}, {
+    "name": "Ớt vàng ngọt",
+    "carb": "6.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "27.00"
+}, {
+    "name": "Ớt phơi khô",
+    "carb": "70.00",
+    "xo": "29.00",
+    "fat": "6.00",
+    "protein": "11.00",
+    "calo": "324.00"
+}, {
+    "name": "Ổi",
+    "carb": "14.00",
+    "xo": "5.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "68.00"
+}, {
+    "name": "Quả bí ngô (pumpkin)",
+    "carb": "6.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "26.00"
+}, {
+    "name": "Quả bí đỏ (acorn squash)",
+    "carb": "10.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "40.00"
+}, {
+    "name": "Quả bí đỏ (butternut squash)",
+    "carb": "12.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "45.00"
+}, {
+    "name": "Quả na",
+    "carb": "25.00",
+    "xo": "2.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "101.00"
+}, {
+    "name": "Quả nhãn",
+    "carb": "15.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "60.00"
+}, {
+    "name": "Quả bơ",
+    "carb": "9.00",
+    "xo": "7.00",
+    "fat": "15.00",
+    "protein": "2.00",
+    "calo": "160.00"
+}, {
+    "name": "Quất / trái tắc",
+    "carb": "16.00",
+    "xo": "6.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "71.00"
+}, {
+    "name": "Quả đào",
+    "carb": "10.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "39.00"
+}, {
+    "name": "Quả quýt",
+    "carb": "13.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "53.00"
+}, {
+    "name": "Quả hồng",
+    "carb": "33.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "127.00"
+}, {
+    "name": "Quả lựu",
+    "carb": "19.00",
+    "xo": "4.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "83.00"
+}, {
+    "name": "Quả hồng",
+    "carb": "19.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "70.00"
+}, {
+    "name": "Quả hồng bì (?)",
+    "carb": "10.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "0.00"
+}, {
+    "name": "Rau muống",
+    "carb": "3.50",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "30.00"
+}, {
+    "name": "Rau đay",
+    "carb": "5.00",
+    "xo": "1.50",
+    "fat": "0.00",
+    "protein": "2.80",
+    "calo": "25.00"
+}, {
+    "name": "Rau mồng tơi",
+    "carb": "4.00",
+    "xo": "2.50",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "14.00"
+}, {
+    "name": "Rau ngót",
+    "carb": "6.00",
+    "xo": "2.50",
+    "fat": "0.00",
+    "protein": "5.30",
+    "calo": "36.00"
+}, {
+    "name": "Rau bí",
+    "carb": "3.50",
+    "xo": "1.70",
+    "fat": "0.00",
+    "protein": "2.70",
+    "calo": "18.00"
+}, {
+    "name": "Rau húng",
+    "carb": "5.50",
+    "xo": "3.50",
+    "fat": "0.00",
+    "protein": "2.20",
+    "calo": "18.00"
+}, {
+    "name": "Rau khoai lang",
+    "carb": "4.00",
+    "xo": "1.50",
+    "fat": "0.00",
+    "protein": "2.60",
+    "calo": "22.00"
+}, {
+    "name": "Rau kinh giới",
+    "carb": "6.50",
+    "xo": "3.50",
+    "fat": "0.00",
+    "protein": "2.70",
+    "calo": "23.00"
+}, {
+    "name": "Rau ngổ",
+    "carb": "4.50",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.50",
+    "calo": "16.00"
+}, {
+    "name": "Rau diếp xanh (xà lách xanh)",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "0.00",
+    "calo": "15.00"
+}, {
+    "name": "Rau diếp đỏ (xà lách đỏ)",
+    "carb": "2.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "16.00"
+}, {
+    "name": "Rau mùi tây (ngò tây)",
+    "carb": "6.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "36.00"
+}, {
+    "name": "Rau bina (bó xôi)",
+    "carb": "4.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "23.00"
+}, {
+    "name": "Rau thì là",
+    "carb": "7.00",
+    "xo": "2.00",
+    "fat": "1.00",
+    "protein": "3.00",
+    "calo": "43.00"
+}, {
+    "name": "Rong biển/thạch trắng agar tươi",
+    "carb": "7.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "26.00"
+}, {
+    "name": "Rong biển agar khô",
+    "carb": "81.00",
+    "xo": "8.00",
+    "fat": "0.00",
+    "protein": "6.00",
+    "calo": "306.00"
+}, {
+    "name": "Rong biển xoắn ốc tươi",
+    "carb": "2.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "6.00",
+    "calo": "26.00"
+}, {
+    "name": "Rong biển xoắn ốc khô",
+    "carb": "24.00",
+    "xo": "4.00",
+    "fat": "8.00",
+    "protein": "57.00",
+    "calo": "290.00"
+}, {
+    "name": "Rong biển kelp (tảo biển) tươi",
+    "carb": "10.00",
+    "xo": "1.00",
+    "fat": "1.00",
+    "protein": "2.00",
+    "calo": "43.00"
+}, {
+    "name": "Rong biển laver (đỏ) tươi",
+    "carb": "5.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "6.00",
+    "calo": "35.00"
+}, {
+    "name": "Rong biển irishmoss tươi",
+    "carb": "12.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "49.00"
+}, {
+    "name": "Rau dền",
+    "carb": "4.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "23.00"
+}, {
+    "name": "Su su/Xu xu",
+    "carb": "5.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "19.00"
+}, {
+    "name": "Su hào",
+    "carb": "6.00",
+    "xo": "4.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "27.00"
+}, {
+    "name": "Sả",
+    "carb": "25.00",
+    "xo": "0.00",
+    "fat": "0.00",
+    "protein": "1.50",
+    "calo": "99.00"
+}, {
+    "name": "Súp lơ",
+    "carb": "5.00",
+    "xo": "3.00",
+    "fat": "0.00",
+    "protein": "2.00",
+    "calo": "25.00"
+}, {
+    "name": "Sầu riêng",
+    "carb": "27.00",
+    "xo": "4.00",
+    "fat": "5.00",
+    "protein": "1.00",
+    "calo": "147.00"
+}, {
+    "name": "Tỏi",
+    "carb": "33.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "6.00",
+    "calo": "149.00"
+}, {
+    "name": "Tỏi tây",
+    "carb": "14.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "61.00"
+}, {
+    "name": "Trái cóc",
+    "carb": "13.00",
+    "xo": "3.00",
+    "fat": "1.00",
+    "protein": "1.00",
+    "calo": "57.00"
+}, {
+    "name": "Táo",
+    "carb": "14.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "0.00",
+    "calo": "52.00"
+}, {
+    "name": "Thanh long",
+    "carb": "9.00",
+    "xo": "1.00",
+    "fat": "1.50",
+    "protein": "2.00",
+    "calo": "60.00"
+}, {
+    "name": "Tía tô",
+    "carb": "7.00",
+    "xo": "3.50",
+    "fat": "0.00",
+    "protein": "3.00",
+    "calo": "26.00"
+}, {
+    "name": "Vải",
+    "carb": "17.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "66.00"
+}, {
+    "name": "Vải khô",
+    "carb": "71.00",
+    "xo": "5.00",
+    "fat": "1.00",
+    "protein": "4.00",
+    "calo": "277.00"
+}, {
+    "name": "Xà lách búp Mỹ",
+    "carb": "3.00",
+    "xo": "1.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "14.00"
+}, {
+    "name": "Xoài",
+    "carb": "17.00",
+    "xo": "2.00",
+    "fat": "0.00",
+    "protein": "1.00",
+    "calo": "65.00"
+}, {
+    "name": "Yến mạch",
+    "carb": "66.00",
+    "xo": "11.00",
+    "fat": "7.00",
+    "protein": "17.00",
+    "calo": "389.00"
+}, {
+    "name": "Bánh mì",
+    "carb": "48.00",
+    "xo": "4.00",
+    "fat": "4.00",
+    "protein": "1.00",
+    "calo": "266.00"
+}, {
+    "name": "Bánh mì đen",
+    "carb": "48.00",
+    "xo": "7.00",
+    "fat": "3.00",
+    "protein": "9.00",
+    "calo": "250.00"
+}]
