@@ -6,8 +6,6 @@ import cx from 'classnames';
 
 import {resolve} from 'utils/food';
 
-const LIMIT = 5;
-
 class CalculatorSearch extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +23,7 @@ class CalculatorSearch extends Component {
     return (
       <div className="CalculatorSearch">
         <Autocomplete
-        value={this.state.value}
+          value={this.state.value}
           wrapperProps={{className:'ui search focus'}}
           inputProps={{name: '300g bắp bò...', id: 'states-autocomplete', className: 'prompt'}}
           items={foodList}
@@ -40,7 +38,7 @@ class CalculatorSearch extends Component {
             return (
               <a key={item.id} className={itemClass}>
                 <div className="content">
-                  <div className="title">{item.name}</div>
+                  <div className="title" title={item.name}>{item.name}</div>
                 </div>
               </a>
             );
@@ -62,6 +60,9 @@ class CalculatorSearch extends Component {
 }
 
 function matchStateToTerm (state, value) {
+  if (!value || value.length < 2) {
+    return false;
+  }
   return (
     state.name.toLowerCase().indexOf(value.toLowerCase()) !== -1
   );

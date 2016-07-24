@@ -11,3 +11,17 @@
     border-radius: 4px !important;
   }
 }
+
+.CalculatorSearch {
+  .results {
+    max-height: 289px;
+    overflow: hidden;
+    .result {
+      .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
