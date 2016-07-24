@@ -13,9 +13,7 @@ const Home = (props) => {
     Home: {
       mealList
     },
-    actions: {
-      addMeal
-    }
+    actions
   } = props;
 
   return (
@@ -25,7 +23,7 @@ const Home = (props) => {
           <FoodList data={foodList} />
         </div>
         <div className="eight wide column">
-          <Calculator addMeal={addMeal} mealList={mealList} data={foodList}/>
+          <Calculator mealList={mealList} data={foodList} {...actions}/>
         </div>
       </div>
     </div>

@@ -9,7 +9,8 @@ const Calculator = (props) => {
   const {
     data,
     addMeal,
-    mealList
+    mealList,
+    clear
   } = props;
 
   function handleSelect(meal) {
@@ -18,13 +19,17 @@ const Calculator = (props) => {
     });
   }
 
+  function handleReset() {
+    clear();
+  }
+
   return (
     <div className="Calculator">
       <Search foodList={data} onSelect={handleSelect}/>
 
       <MealList data={mealList}></MealList>
 
-      <button className="ui right floated primary button">Reset</button>
+      <button className="ui right floated primary button" onClick={handleReset}>Reset</button>
     </div>
   );
 };
