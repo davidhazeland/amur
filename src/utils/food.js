@@ -19,3 +19,9 @@ export function resolve(data) {
     }
   }
 }
+
+export function getName(data) {
+  const splits = data.split(' ');
+  splits.shift();
+  return splits.join(' ');
+}

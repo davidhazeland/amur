@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Autocomplete from 'react-autocomplete';
 import cx from 'classnames';
 
-import {resolve} from 'utils/food';
+import {resolve, getName} from 'utils/food';
 
 class CalculatorSearch extends Component {
   constructor(props) {
@@ -28,8 +28,19 @@ class CalculatorSearch extends Component {
           inputProps={{name: '300g bắp bò...', id: 'states-autocomplete', className: 'prompt'}}
           items={foodList}
           getItemValue={(item) => item.name}
-          onChange={(event, value) => this.setState({ value })}
-          onSelect={value => this.setState({ value })}
+          onChange={(event, value) => {
+            this.setState({ value })
+          }}
+          onSelect={(value, item) => {
+            const {quantity} = resolve(this.state.value);
+            onSelect({
+              quantity,
+              item
+            });
+            this.setState({
+              value: ''
+            });
+          }}
           shouldItemRender={matchStateToTerm}
           renderItem={(item, isHighlighted) => {
             const itemClass = cx('result', {
@@ -60,11 +71,12 @@ class CalculatorSearch extends Component {
 }
 
 function matchStateToTerm (state, value) {
-  if (!value || value.length < 2) {
+  const name = getName(value);
+  if (!name || name.length < 2) {
     return false;
   }
   return (
-    state.name.toLowerCase().indexOf(value.toLowerCase()) !== -1
+    state.name.toLowerCase().indexOf(name.toLowerCase()) !== -1
   );
 }
 
