@@ -24,7 +24,7 @@ class Home extends Component {
   }
 
   render() {
-    const title = 'Home';
+    const title = 'Amur';
     return (
     <DocumentTitle title={title}>
       <HomeComponent {...this.props}/>
