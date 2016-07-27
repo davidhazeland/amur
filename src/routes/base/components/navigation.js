@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className="Navigation">
       <div className="ui vertical menu">
         <div className="item">
-          <div className="ui input"><input type="text" placeholder="Search..."/></div>
+          <div className="ui input"><input type="text" placeholder="Roar oh oh..."/></div>
         </div>
         <div className="item">
           This area
