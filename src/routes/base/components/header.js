@@ -5,6 +5,8 @@ import cx from 'classnames';
 
 import {Link} from 'react-router';
 
+import logo from 'images/logo.png';
+
 const Header = (props) => {
   const {path} = props;
   const renderTab = (to, name) => {
@@ -20,7 +22,7 @@ const Header = (props) => {
     <div className="Header">
       <div className="ui secondary pointing menu">
         <Link to="/" className="brand item">
-            <img className="logo" src="/images/logo.png" alt=""/>
+            <img className="logo" src={logo} alt=""/>
             Amur
         </Link>
         {renderTab('/', 'Home')}

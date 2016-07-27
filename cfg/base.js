@@ -42,6 +42,7 @@ module.exports = {
       helpers: `${defaultSettings.srcPath}/helpers/`,
       utils: `${defaultSettings.srcPath}/utils/`,
       routes: `${defaultSettings.srcPath}/routes/`,
+      images: `${defaultSettings.srcPath}/images/`,
       config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV
     }
   },
