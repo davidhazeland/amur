@@ -19,7 +19,6 @@ class Nutrition extends Component {
   }
 
   componentWillUnmount() {
-    this.props.actions.clear();
     this.props.actions.clearInitialData();
   }
 

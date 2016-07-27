@@ -19,7 +19,6 @@ class Home extends Component {
   }
 
   componentWillUnmount() {
-    this.props.actions.clear();
     this.props.actions.clearInitialData();
   }
 
