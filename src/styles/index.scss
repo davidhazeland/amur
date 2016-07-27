@@ -1,5 +1,19 @@
 @import "~semantic-ui-css/semantic.css";
 
+.Header {
+  .brand {
+    color: #2E2F48 !important;
+    // color: #BF3846 !important;
+    padding: 8px 15px !important;
+    .logo {
+      height: 24px;
+      width: auto !important;
+      margin-right: 8px !important;
+    }
+  }
+
+}
+
 .Home {
   margin-top: 40px;
 }
