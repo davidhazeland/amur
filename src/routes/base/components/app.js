@@ -12,7 +12,7 @@ export default React => {
   const App = (props) => {
     return (
       <div className="App">
-        <Header/>
+        <Header {...props}/>
         <Navigation />
         <Content>
           {props.children}

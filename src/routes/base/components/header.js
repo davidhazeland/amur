@@ -1,10 +1,21 @@
 'use strict';
 
 import React from 'react';
+import cx from 'classnames';
 
 import {Link} from 'react-router';
 
-const Header = () => {
+const Header = (props) => {
+  const {path} = props;
+  const renderTab = (to, name) => {
+    const classes = cx('item', {
+      active: path === to
+    });
+    return (
+      <Link to={to} className={classes}>{name}</Link>
+    );
+  }
+
   return (
     <div className="Header">
       <div className="ui secondary pointing menu">
@@ -12,12 +23,8 @@ const Header = () => {
             <img className="logo" src="/images/logo.png" alt=""/>
             Amur
         </div>
-        <Link to="/" className="active item">
-          Home
-        </Link>
-        <Link to="/food-list" className="item">
-          Food List
-        </Link>
+        {renderTab('/', 'Home')}
+        {renderTab('/nutrition', 'Nutrition')}
         <div className="right menu">
           <a href="https://github.com/davidhazeland/amur" className="ui item">
             Github
