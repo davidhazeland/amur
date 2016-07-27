@@ -19,10 +19,10 @@ const Header = (props) => {
   return (
     <div className="Header">
       <div className="ui secondary pointing menu">
-        <div className="brand item">
+        <Link to="/" className="brand item">
             <img className="logo" src="/images/logo.png" alt=""/>
             Amur
-        </div>
+        </Link>
         {renderTab('/', 'Home')}
         {renderTab('/nutrition', 'Nutrition')}
         <div className="right menu">
