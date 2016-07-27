@@ -23,10 +23,10 @@ const MealList = ({data}) => {
           const {quantity, food} = item;
           const name = `${format(quantity)} ${food.name}`;
           const unit = quantity/100;
-          const carb = parseFloat(food.carb) * unit;
-          const fat = parseFloat(food.fat) * unit;
-          const protein = parseFloat(food.protein) * unit;
-          const calo = parseFloat(food.calo) * unit;
+          const carb = calculateNutrition(food.carb, unit);
+          const fat = calculateNutrition(food.fat, unit);
+          const protein = calculateNutrition(food.protein, unit);
+          const calo = calculateNutrition(food.calo, unit);
           return (
             <tr key={index}>
                 <td>{name}</td>
@@ -50,6 +50,11 @@ const MealList = ({data}) => {
     </table>
   );
 };
+
+function calculateNutrition(base, unit) {
+  const nutrition = parseFloat(base) * unit;
+  return Math.round(nutrition * 100) / 100
+}
 
 function calculateTotal(data) {
   return data.reduce((total, item) => {
