@@ -60,10 +60,10 @@ function calculateTotal(data) {
   return data.reduce((total, item) => {
     const {quantity, food} = item;
     const unit = quantity/100;
-    const calo = parseFloat(food.calo) * unit;
-    const carb = parseFloat(food.carb) * unit;
-    const fat = parseFloat(food.fat) * unit;
-    const protein = parseFloat(food.protein) * unit;
+    const calo = calculateNutrition(food.calo, unit);
+    const carb = calculateNutrition(food.carb, unit);
+    const fat = calculateNutrition(food.fat, unit);
+    const protein = calculateNutrition(food.protein, unit);
     return {
       calo: total.calo + calo,
       carb: total.carb + carb,
