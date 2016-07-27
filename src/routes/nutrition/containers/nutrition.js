@@ -9,11 +9,11 @@ import { connect } from 'react-redux';
 
 import DocumentTitle from 'react-document-title';
 
-import {actions as myActions} from 'modules/home';
+import {actions as myActions} from 'modules/nutrition';
 import {actions as initialDataActions} from 'modules/initial-data';
-import HomeComponent from '../components/home';
+import NutritionComponent from '../components/nutrition';
 
-class Home extends Component {
+class Nutrition extends Component {
   componentDidMount() {
     this.props.actions.getInitialDataRequest();
   }
@@ -23,16 +23,16 @@ class Home extends Component {
   }
 
   render() {
-    const title = 'Amur';
+    const title = 'Nutrition';
     return (
     <DocumentTitle title={title}>
-      <HomeComponent {...this.props}/>
+      <NutritionComponent {...this.props}/>
     </DocumentTitle>
     );
   }
 }
 
-Home.propTypes = {
+Nutrition.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
@@ -51,4 +51,4 @@ function mapDispatchToProps(dispatch) {
   });
   return { actions: bindActionCreators(actions, dispatch) };
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Nutrition);

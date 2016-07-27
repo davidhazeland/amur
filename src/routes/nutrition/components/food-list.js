@@ -5,11 +5,15 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 
 const FoodList = ({data}) => {
   const options = {
-    paginationSize: 2
+    paginationSize: 3
+  };
+
+  const style = {
+    width: 680
   };
 
   return (
-    <div className="FoodList">
+    <div className="FoodList" style={style}>
       <BootstrapTable data={data} striped={true} hover={true} pagination options={options}>
           <TableHeaderColumn dataField="name" isKey={true} filter={ { type: 'TextFilter', delay: 300, placeholder: 'Search' } } dataAlign="center"></TableHeaderColumn>
           <TableHeaderColumn dataField="carb" dataSort={true} width="70">Carb</TableHeaderColumn>

@@ -3,7 +3,6 @@
 import React from 'react';
 
 import Calculator from './calculator';
-import FoodList from './food-list';
 
 const Home = (props) => {
   const {
@@ -17,15 +16,8 @@ const Home = (props) => {
   } = props;
 
   return (
-    <div className="Home container">
-      <div className="ui grid">
-        <div className="eight wide column">
-          <FoodList data={foodList} />
-        </div>
-        <div className="eight wide column">
-          <Calculator mealList={mealList} data={foodList} {...actions}/>
-        </div>
-      </div>
+    <div className="Home">
+      <Calculator mealList={mealList} data={foodList} {...actions}/>
     </div>
   );
 };

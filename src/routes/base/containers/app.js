@@ -20,8 +20,10 @@ class App extends Component {
 }
 
 App.propTypes = { actions: PropTypes.object.isRequired };
-function mapStateToProps() {
-  return {};
+function mapStateToProps(state, ownProps) {
+  return {
+    path: ownProps.location.pathname
+  };
 }
 function mapDispatchToProps(dispatch) {
   return { actions: bindActionCreators({}, dispatch) };

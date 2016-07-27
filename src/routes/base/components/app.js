@@ -3,6 +3,8 @@ require('bootstrap-loader');
 require('styles/index.scss');
 
 import createContent from './content';
+import Header from './header';
+import Navigation from './navigation';
 
 export default React => {
   const Content = createContent(React);
@@ -10,6 +12,8 @@ export default React => {
   const App = (props) => {
     return (
       <div className="App">
+        <Header {...props}/>
+        <Navigation />
         <Content>
           {props.children}
         </Content>

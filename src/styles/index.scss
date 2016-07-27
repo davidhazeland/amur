@@ -1,11 +1,45 @@
 @import "~semantic-ui-css/semantic.css";
 
-.Home {
-  margin-top: 40px;
+.App {
+  position: relative;
 }
 
+.Header {
+  .brand {
+    color: #2E2F48 !important;
+    // color: #BF3846 !important;
+    padding: 8px 15px !important;
+    .logo {
+      height: 24px;
+      width: auto !important;
+      margin-right: 8px !important;
+    }
+  }
+
+}
+
+.Content {
+  width: 100%;
+  padding-left: 270px;
+  padding-right: 10px;
+  position: absolute;
+  top: 60px;
+}
+
+.Navigation {
+  margin: 20px 15px;
+  float: left;
+  .ui.menu {
+    width: 220px !important;
+  }
+}
+
+.Home {
+
+}
 
 .Calculator {
+  width: 700px;
   .prompt {
     width: 300px;
     border-radius: 4px !important;
@@ -24,4 +58,8 @@
       }
     }
   }
+}
+
+.FoodList {
+  // width: 680px;
 }
