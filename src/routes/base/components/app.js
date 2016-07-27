@@ -4,6 +4,7 @@ require('styles/index.scss');
 
 import createContent from './content';
 import Header from './header';
+import Navigation from './navigation';
 
 export default React => {
   const Content = createContent(React);
@@ -12,6 +13,7 @@ export default React => {
     return (
       <div className="App">
         <Header/>
+        <Navigation />
         <Content>
           {props.children}
         </Content>

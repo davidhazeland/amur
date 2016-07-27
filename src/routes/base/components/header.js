@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import {Link} from 'react-router';
+
 const Header = () => {
   return (
     <div className="Header">
@@ -10,9 +12,12 @@ const Header = () => {
             <img className="logo" src="/images/logo.png" alt=""/>
             Amur
         </div>
-        <a className="active item">
+        <Link to="/" className="active item">
           Home
-        </a>
+        </Link>
+        <Link to="/food-list" className="item">
+          Food List
+        </Link>
         <div className="right menu">
           <a href="https://github.com/davidhazeland/amur" className="ui item">
             Github
