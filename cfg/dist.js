@@ -10,7 +10,10 @@ let defaultSettings = require('./defaults');
 let BowerWebpackPlugin = require('bower-webpack-plugin');
 
 let config = Object.assign({}, baseConfig, {
-  entry: path.join(__dirname, '../src/index'),
+  entry: {
+    app: path.join(__dirname, '../src/index'),
+    vendor: defaultSettings.vendor
+  },
   cache: false,
   devtool: 'sourcemap',
   plugins: [
@@ -25,11 +28,7 @@ let config = Object.assign({}, baseConfig, {
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new webpack.NoErrorsPlugin(),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      'jQuery': 'jquery',
-      'window.jQuery': 'jquery'
-    })
+    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.js')
   ],
   module: defaultSettings.getDefaultModules()
 });
