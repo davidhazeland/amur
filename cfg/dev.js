@@ -9,11 +9,14 @@ let defaultSettings = require('./defaults');
 let BowerWebpackPlugin = require('bower-webpack-plugin');
 
 let config = Object.assign({}, baseConfig, {
-  entry: [
-    'webpack-dev-server/client?http://127.0.0.1:' + defaultSettings.port,
-    'webpack/hot/only-dev-server',
-    './src/index'
-  ],
+  entry: {
+    app: [
+      'webpack-dev-server/client?http://127.0.0.1:' + defaultSettings.port,
+      'webpack/hot/only-dev-server',
+      './src/index'
+    ],
+    vendor: defaultSettings.vendor
+  },
   cache: true,
   devtool: 'eval-source-map',
   plugins: [
@@ -22,11 +25,7 @@ let config = Object.assign({}, baseConfig, {
     new BowerWebpackPlugin({
       searchResolveModulesDirectories: false
     }),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      'jQuery': 'jquery',
-      'window.jQuery': 'jquery'
-    })
+    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.js')
   ],
   module: defaultSettings.getDefaultModules()
 });

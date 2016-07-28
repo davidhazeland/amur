@@ -10,6 +10,18 @@ const path = require('path');
 const srcPath = path.join(__dirname, '/../src');
 const dfltPort = 8000;
 
+const vendor = [
+  'babel-polyfill',
+  'react',
+  'react-dom',
+  'react-router',
+  'redux',
+  'react-router-redux',
+  'redux-saga',
+  'lodash',
+  'mathjs'
+];
+
 /**
  * Get the default modules object for webpack
  * @return {Object}
@@ -57,5 +69,6 @@ module.exports = {
   srcPath: srcPath,
   publicPath: '/assets/',
   port: dfltPort,
-  getDefaultModules: getDefaultModules
+  getDefaultModules: getDefaultModules,
+  vendor: vendor
 };
