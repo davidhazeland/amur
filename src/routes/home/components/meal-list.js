@@ -15,7 +15,7 @@ const MealList = ({data}) => {
           <th>Carb (g)</th>
           <th>Fat (g)</th>
           <th>Protein (g)</th>
-          <th>Calories (g)</th>
+          <th>Calo (Kcal)</th>
         </tr>
       </thead>
       <tbody>

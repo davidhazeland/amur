@@ -9,17 +9,17 @@ const FoodList = ({data}) => {
   };
 
   const style = {
-    width: 680
+    width: 720
   };
 
   return (
     <div className="FoodList" style={style}>
       <BootstrapTable data={data} striped={true} hover={true} pagination options={options}>
           <TableHeaderColumn dataField="name" isKey={true} filter={ { type: 'TextFilter', delay: 300, placeholder: 'Search' } } dataAlign="center"></TableHeaderColumn>
-          <TableHeaderColumn dataField="carb" dataSort={true} width="70">Carb</TableHeaderColumn>
-          <TableHeaderColumn dataField="fat" dataSort={true} width="70">Fat</TableHeaderColumn>
-          <TableHeaderColumn dataField="protein" dataSort={true} sortFunc={ sortByName } width="90">Protein</TableHeaderColumn>
-          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortByName } width="70">Calo</TableHeaderColumn>
+          <TableHeaderColumn dataField="carb" dataSort={true} width="90">Carb (g)</TableHeaderColumn>
+          <TableHeaderColumn dataField="fat" dataSort={true} width="90">Fat (g)</TableHeaderColumn>
+          <TableHeaderColumn dataField="protein" dataSort={true} sortFunc={ sortByName } width="110">Protein (g)</TableHeaderColumn>
+          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortByName } width="110">Calo (Kcal)</TableHeaderColumn>
       </BootstrapTable>
     </div>
   );
