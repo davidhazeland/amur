@@ -1,6 +1,6 @@
 'use strict';
 
-import {call, put, take, fork} from 'redux-saga';
+import {call, put, take, fork} from 'redux-saga/effects';
 import {pick} from 'lodash/object';
 
 import * as actionTypes from '../action-types';

@@ -8,4 +8,8 @@ const sagasList = [
   InitialData,
   Home
 ];
-module.exports = flatten(sagasList.map(sagas => values(sagas)));
+import {fork} from 'redux-saga/effects';
+
+module.exports = function* () {
+  yield flatten(sagasList.map(sagas => values(sagas))).map(saga => fork(saga));
+};

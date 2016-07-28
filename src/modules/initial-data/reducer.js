@@ -9,19 +9,20 @@ const initialState = freeze({
 
 export default function (state = initialState, action) {
   /* Keep the reducer clean - do not mutate the original state. */
+  const {type, ...params} = action;
 
-  switch (action.type) {
+  switch (type) {
     case actionTypes.CLEAR: {
       return initialState;
-    } break;
+    }
 
     case actionTypes.SET: {
-      const {type, ...params} = action;
+
       return {
         ...state,
         ...params
       };
-    } break;
+    }
 
     default:
     {
