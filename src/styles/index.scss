@@ -62,5 +62,14 @@
 }
 
 .FoodList {
-  // width: 680px;
+  .react-bs-container-header .table {
+    margin-bottom: 10px;
+  }
+  .react-bs-container-body .table {
+    margin-bottom: 0;
+  }
+
+  .sort-column {
+    cursor: default;
+  }
 }
