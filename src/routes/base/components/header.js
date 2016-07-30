@@ -28,7 +28,7 @@ const Header = (props) => {
         {renderTab('/', 'Home')}
         {renderTab('/nutrition', 'Nutrition')}
         <div className="right menu">
-          <a href="https://github.com/davidhazeland/amur" className="ui item">
+          <a target="_blank" href="https://github.com/davidhazeland/amur" className="ui item">
             Github
           </a>
         </div>
