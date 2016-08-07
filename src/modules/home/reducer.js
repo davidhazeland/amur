@@ -25,6 +25,19 @@ export default function (state = initialState, action) {
       });
     }
 
+    case actionTypes.REMOVE_MEAL: {
+      const {mealList} = state;
+      const index = mealList.findIndex(m => m.food.id === action.id);
+      
+      return freeze({
+        ...state,
+        mealList: [
+          ...mealList.slice(0, index),
+          ...mealList.slice(index+1, mealList.length)
+        ]
+      });
+    }
+
     default:
     {
       /* Return original state if no actions were consumed. */
