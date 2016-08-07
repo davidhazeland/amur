@@ -63,3 +63,20 @@
     cursor: default;
   }
 }
+
+.MealList {
+  &--actions {
+    width: 50px;
+  }
+
+  .red.remove.icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  tr:hover {
+    .red.remove.icon {
+      display: inline-block;
+    }
+  }
+}

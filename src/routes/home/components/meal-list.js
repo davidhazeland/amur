@@ -4,8 +4,14 @@ import React from 'react';
 
 import {format} from 'utils/food';
 
-const MealList = ({data}) => {
+const MealList = ({data, removeMeal}) => {
   const total = calculateTotal(data);
+
+  function handleRemoveClick(id) {
+    removeMeal({
+      id
+    });
+  }
 
   return (
     <table className="MealList ui orange table">
@@ -16,6 +22,7 @@ const MealList = ({data}) => {
           <th>Fat (g)</th>
           <th>Protein (g)</th>
           <th>Calo (Kcal)</th>
+          <th className="MealList--actions"></th>
         </tr>
       </thead>
       <tbody>
@@ -34,6 +41,9 @@ const MealList = ({data}) => {
                 <td>{fat}</td>
                 <td>{protein}</td>
                 <td>{calo}</td>
+                <td>
+                  <i className="red remove icon" onClick={handleRemoveClick.bind(null, food.id)}></i>
+                </td>
             </tr>
           );
         })}
@@ -45,6 +55,7 @@ const MealList = ({data}) => {
           <th>{total.fat}</th>
           <th>{total.protein}</th>
           <th>{total.calo}</th>
+          <th></th>
         </tr>
       </tfoot>
     </table>

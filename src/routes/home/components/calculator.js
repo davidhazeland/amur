@@ -9,6 +9,7 @@ const Calculator = (props) => {
   const {
     data,
     addMeal,
+    removeMeal,
     mealList,
     clear
   } = props;
@@ -27,7 +28,7 @@ const Calculator = (props) => {
     <div className="Calculator">
       <Search foodList={data} onSelect={handleSelect}/>
 
-      <MealList data={mealList}></MealList>
+      <MealList data={mealList} removeMeal={removeMeal}></MealList>
 
       <button className="ui right floated primary button" onClick={handleReset}>Reset</button>
     </div>

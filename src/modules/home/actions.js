@@ -20,3 +20,10 @@ export const addMeal = (parameter) => {
     ...parameter
   }
 };
+
+export const removeMeal = (parameter) => {
+  return {
+    type: actionTypes.REMOVE_MEAL,
+    ...parameter
+  }
+};
