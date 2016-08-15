@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Autocomplete from 'react-autocomplete';
 import cx from 'classnames';
 
-import {resolve, getName} from 'utils/food';
+import {resolve, getName, toBase} from 'utils/food';
 
 class CalculatorSearch extends Component {
   constructor(props) {
@@ -75,9 +75,9 @@ function matchStateToTerm (state, value) {
   if (!name || name.length < 2) {
     return false;
   }
-  return (
-    state.name.toLowerCase().indexOf(name.toLowerCase()) !== -1
-  );
+  const keyword = toBase(name.toLowerCase());
+
+  return toBase(state.name.toLowerCase()).includes(keyword);
 }
 
 CalculatorSearch.displayName = 'CalculatorSearch';
