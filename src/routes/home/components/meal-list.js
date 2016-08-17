@@ -7,9 +7,9 @@ import {format} from 'utils/food';
 const MealList = ({data, removeMeal}) => {
   const total = calculateTotal(data);
 
-  function handleRemoveClick(id) {
+  function handleRemoveClick(meal) {
     removeMeal({
-      id
+      meal
     });
   }
 
@@ -42,7 +42,7 @@ const MealList = ({data, removeMeal}) => {
                 <td>{protein}</td>
                 <td>{calo}</td>
                 <td>
-                  <i className="red remove icon" onClick={handleRemoveClick.bind(null, food.id)}></i>
+                  <i className="red remove icon" onClick={handleRemoveClick.bind(null, item)}></i>
                 </td>
             </tr>
           );
