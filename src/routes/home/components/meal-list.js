@@ -4,7 +4,7 @@ import React from 'react';
 
 import {format} from 'utils/food';
 
-const MealList = ({data, removeMeal}) => {
+const MealList = ({data = [], removeMeal}) => {
   const total = calculateTotal(data);
 
   function handleRemoveClick(meal) {
