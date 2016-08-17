@@ -1,5 +1,5 @@
 import test from 'tape';
-import {take, fork} from 'redux-saga';
+import {take, fork} from 'redux-saga/effects';
 
 import saga, {handle} from 'modules/home/sagas/get-initial-data-request';
 import {actions, actionTypes} from 'modules/home';
