@@ -18,30 +18,31 @@ const FoodList = ({data}) => {
           <TableHeaderColumn dataField="name" isKey={true} filter={ { type: 'TextFilter', delay: 300, placeholder: 'Search' } } dataAlign="center"></TableHeaderColumn>
           <TableHeaderColumn dataField="carb" dataSort={true} width="90">Carb (g)</TableHeaderColumn>
           <TableHeaderColumn dataField="fat" dataSort={true} width="90">Fat (g)</TableHeaderColumn>
-          <TableHeaderColumn dataField="protein" dataSort={true} sortFunc={ sortByName } width="110">Protein (g)</TableHeaderColumn>
-          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortByName } width="110">Calo (Kcal)</TableHeaderColumn>
+          <TableHeaderColumn dataField="protein" dataSort={true} sortFunc={ sortFunc } width="110">Protein (g)</TableHeaderColumn>
+          <TableHeaderColumn dataField="calo" dataSort={true} sortFunc={ sortFunc } width="110">Calo (Kcal)</TableHeaderColumn>
       </BootstrapTable>
     </div>
   );
 };
 
-function sortByName(a, b, order, field) {
+function sortFunc(a, b, order, field) {
   const x = parseFloat(a[field]);
   const y = parseFloat(b[field]);
-  if (order === 'desc') {
-    if (x > y) {
-      return -1;
-    } else if (x < y) {
-      return 1;
-    }
+
+  return sort(x, y, order);
+}
+
+export function sort(x, y, order) {
+  if (x == y) {
     return 0;
   }
-  if (x < y) {
-    return -1;
-  } else if (x > y) {
-    return 1;
+
+  const offset = x - y;
+  if (order === 'desc') {
+    return offset > 0 ? -1 : 1;
+  } else {
+    return offset < 0 ? -1 : 1;
   }
-  return 0;
 }
 
 FoodList.displayName = 'FoodList';
