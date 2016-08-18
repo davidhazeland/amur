@@ -8,14 +8,22 @@ import MealList from './meal-list';
 const Calculator = (props) => {
   const {
     data,
-    addMeal,
-    removeMeal,
     mealList,
-    clear
+    actions: {
+      addMeal,
+      removeMeal,
+      clear
+    }
   } = props;
 
   function handleSelect(meal) {
     addMeal({
+      meal
+    });
+  }
+
+  function handleRemove(meal) {
+    removeMeal({
       meal
     });
   }
@@ -28,7 +36,7 @@ const Calculator = (props) => {
     <div className="Calculator">
       <Search foodList={data} onSelect={handleSelect}/>
 
-      <MealList data={mealList} removeMeal={removeMeal}></MealList>
+      <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
 
       <button className="ui right floated primary button" onClick={handleReset}>Reset</button>
     </div>

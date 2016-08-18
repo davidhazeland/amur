@@ -29,7 +29,7 @@ test('[Home route] MealList component', nest => {
         },
         quantity: 200
       }],
-      removeMeal: () => {}
+      onRemoveMeal: () => {}
     }
     const el = <MealList {...props}/>;
     const $ = dom.load(render(el));

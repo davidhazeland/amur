@@ -17,7 +17,7 @@ const Home = (props) => {
 
   return (
     <div className="Home">
-      <Calculator mealList={mealList} data={foodList} {...actions}/>
+      <Calculator mealList={mealList} data={foodList} actions={actions}/>
     </div>
   );
 };
