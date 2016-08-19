@@ -31,10 +31,10 @@ const MealList = ({data = [], onRemoveMeal}) => {
           return (
             <tr key={index}>
                 <td>{name}</td>
-                <td>{carb}</td>
-                <td>{fat}</td>
-                <td>{protein}</td>
-                <td>{calo}</td>
+                <td>{round(carb)}</td>
+                <td>{round(fat)}</td>
+                <td>{round(protein)}</td>
+                <td>{round(calo)}</td>
                 <td>
                   <i className="red remove icon" onClick={onRemoveMeal.bind(null, item)}></i>
                 </td>
@@ -45,10 +45,10 @@ const MealList = ({data = [], onRemoveMeal}) => {
       <tfoot>
         <tr>
           <th>Total</th>
-          <th>{total.carb}</th>
-          <th>{total.fat}</th>
-          <th>{total.protein}</th>
-          <th>{total.calo}</th>
+          <th>{round(total.carb)}</th>
+          <th>{round(total.fat)}</th>
+          <th>{round(total.protein)}</th>
+          <th>{round(total.calo)}</th>
           <th></th>
         </tr>
       </tfoot>
@@ -57,8 +57,11 @@ const MealList = ({data = [], onRemoveMeal}) => {
 };
 
 function calculateNutrition(base, unit) {
-  const nutrition = parseFloat(base) * unit;
-  return Math.round(nutrition * 100) / 100
+  return parseFloat(base) * unit;
+}
+
+function round(nutrition) {
+  return Math.round(nutrition * 100) / 100;
 }
 
 function calculateTotal(data) {
