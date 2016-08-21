@@ -29,10 +29,10 @@ function sortFunc(a, b, order, field) {
   const x = parseFloat(a[field]);
   const y = parseFloat(b[field]);
 
-  return sort(x, y, order);
+  return compare(x, y, order);
 }
 
-export function sort(x, y, order) {
+export function compare(x, y, order) {
   if (x == y) {
     return 0;
   }
