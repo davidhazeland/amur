@@ -1,9 +1,9 @@
 {
   "name": "amur",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Recipe Nutrition Calculator",
-  "main": "",
+  "main": "server.js",
   "scripts": {
     "clean": "rimraf dist/*",
     "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./src/favicon-16x16.png ./src/favicon-32x32.png ./src/safari-pinned-tab.svg ./dist",
