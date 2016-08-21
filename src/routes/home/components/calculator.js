@@ -8,10 +8,12 @@ import MealList from './meal-list';
 const Calculator = (props) => {
   const {
     data,
-    addMeal,
-    removeMeal,
     mealList,
-    clear
+    actions: {
+      addMeal,
+      removeMeal,
+      clear
+    }
   } = props;
 
   function handleSelect(meal) {
@@ -20,15 +22,25 @@ const Calculator = (props) => {
     });
   }
 
+  function handleRemove(meal) {
+    removeMeal({
+      meal
+    });
+  }
+
   function handleReset() {
     clear();
   }
 
+  const style = {
+    width: 720
+  };
+
   return (
-    <div className="Calculator">
+    <div className="Calculator" style={style}>
       <Search foodList={data} onSelect={handleSelect}/>
 
-      <MealList data={mealList} removeMeal={removeMeal}></MealList>
+      <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
 
       <button className="ui right floated primary button" onClick={handleReset}>Reset</button>
     </div>

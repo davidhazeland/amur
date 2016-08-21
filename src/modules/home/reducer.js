@@ -16,19 +16,39 @@ export default function (state = initialState, action) {
     }
 
     case actionTypes.ADD_MEAL: {
+      const {meal} = action;
+      const {mealList} = state;
+
+      const index = mealList.findIndex(m => m.food.id == meal.food.id);
+
+      if (index !== -1) {
+        return freeze({
+          ...state,
+          mealList: [
+            ...mealList.slice(0, index),
+            {
+              ...meal,
+              quantity: mealList[index].quantity + meal.quantity
+            },
+            ...mealList.slice(index+1, mealList.length)
+          ]
+        });
+      }
+
       return freeze({
         ...state,
         mealList: [
-          ...state.mealList,
-          action.meal
+          ...mealList,
+          meal
         ]
       });
     }
 
     case actionTypes.REMOVE_MEAL: {
+      const {meal} = action;
       const {mealList} = state;
-      const index = mealList.findIndex(m => m.food.id === action.id);
-      
+      const index = mealList.findIndex(m => m.food.id == meal.food.id);
+
       return freeze({
         ...state,
         mealList: [

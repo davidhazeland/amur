@@ -4,14 +4,8 @@ import React from 'react';
 
 import {format} from 'utils/food';
 
-const MealList = ({data, removeMeal}) => {
+const MealList = ({data = [], onRemoveMeal}) => {
   const total = calculateTotal(data);
-
-  function handleRemoveClick(id) {
-    removeMeal({
-      id
-    });
-  }
 
   return (
     <table className="MealList ui orange table">
@@ -37,12 +31,12 @@ const MealList = ({data, removeMeal}) => {
           return (
             <tr key={index}>
                 <td>{name}</td>
-                <td>{carb}</td>
-                <td>{fat}</td>
-                <td>{protein}</td>
-                <td>{calo}</td>
+                <td>{round(carb)}</td>
+                <td>{round(fat)}</td>
+                <td>{round(protein)}</td>
+                <td>{round(calo)}</td>
                 <td>
-                  <i className="red remove icon" onClick={handleRemoveClick.bind(null, food.id)}></i>
+                  <i className="red remove icon" onClick={onRemoveMeal.bind(null, item)}></i>
                 </td>
             </tr>
           );
@@ -51,10 +45,10 @@ const MealList = ({data, removeMeal}) => {
       <tfoot>
         <tr>
           <th>Total</th>
-          <th>{total.carb}</th>
-          <th>{total.fat}</th>
-          <th>{total.protein}</th>
-          <th>{total.calo}</th>
+          <th>{round(total.carb)}</th>
+          <th>{round(total.fat)}</th>
+          <th>{round(total.protein)}</th>
+          <th>{round(total.calo)}</th>
           <th></th>
         </tr>
       </tfoot>
@@ -62,12 +56,15 @@ const MealList = ({data, removeMeal}) => {
   );
 };
 
-function calculateNutrition(base, unit) {
-  const nutrition = parseFloat(base) * unit;
-  return Math.round(nutrition * 100) / 100
+export function calculateNutrition(base, unit) {
+  return parseFloat(base) * unit;
 }
 
-function calculateTotal(data) {
+export function round(nutrition) {
+  return Math.round(nutrition * 100) / 100;
+}
+
+export function calculateTotal(data) {
   return data.reduce((total, item) => {
     const {quantity, food} = item;
     const unit = quantity/100;
