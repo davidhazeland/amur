@@ -32,8 +32,12 @@ const Calculator = (props) => {
     clear();
   }
 
+  const style = {
+    width: 720
+  };
+
   return (
-    <div className="Calculator">
+    <div className="Calculator" style={style}>
       <Search foodList={data} onSelect={handleSelect}/>
 
       <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
