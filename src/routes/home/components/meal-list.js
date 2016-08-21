@@ -56,15 +56,15 @@ const MealList = ({data = [], onRemoveMeal}) => {
   );
 };
 
-function calculateNutrition(base, unit) {
+export function calculateNutrition(base, unit) {
   return parseFloat(base) * unit;
 }
 
-function round(nutrition) {
+export function round(nutrition) {
   return Math.round(nutrition * 100) / 100;
 }
 
-function calculateTotal(data) {
+export function calculateTotal(data) {
   return data.reduce((total, item) => {
     const {quantity, food} = item;
     const unit = quantity/100;
