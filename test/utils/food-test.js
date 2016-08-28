@@ -1,6 +1,6 @@
 import test from 'tape';
 
-import {resolve} from 'utils/food';
+import {resolve, toBase} from 'utils/food';
 
 test('resolve() function', nest => {
   nest.test('gram', assert => {
@@ -45,3 +45,14 @@ test('resolve() function', nest => {
     assert.end();
   });
 })
+
+
+test('toBase() function', assert => {
+  const actual = toBase('Béef');
+  const expected = 'Beef';
+
+  assert.deepEqual(actual, expected,
+    'should returned expected result');
+
+  assert.end();
+});

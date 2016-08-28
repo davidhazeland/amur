@@ -1,7 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
-import Autocomplete from 'react-autocomplete';
+import {Autocomplete} from 'modules/components';
 import cx from 'classnames';
 
 import {resolve, getName, toBase} from 'utils/food';
@@ -25,7 +25,7 @@ class CalculatorSearch extends Component {
         <Autocomplete
           value={this.state.value}
           wrapperProps={{className:'ui search focus'}}
-          inputProps={{placeholder: '300g bắp bò...', id: 'states-autocomplete', className: 'prompt'}}
+          inputProps={{placeholder: '300g beef...', id: 'states-autocomplete', className: 'prompt'}}
           items={foodList}
           getItemValue={(item) => item.name}
           onChange={(event, value) => {
@@ -70,7 +70,7 @@ class CalculatorSearch extends Component {
   }
 }
 
-function matchStateToTerm (state, value) {
+export function matchStateToTerm (state, value) {
   const name = getName(value);
   if (!name || name.length < 2) {
     return false;
