@@ -1,7 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
-import Autocomplete from 'react-autocomplete';
+import {Autocomplete} from 'modules/components';
 import cx from 'classnames';
 
 import {resolve, getName, toBase} from 'utils/food';
