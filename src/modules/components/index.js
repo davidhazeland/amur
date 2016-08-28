@@ -1,4 +1,4 @@
-import Autocomplete from './autoComplete';
+import Autocomplete from './autocomplete';
 
 export {
   Autocomplete
