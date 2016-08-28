@@ -70,7 +70,7 @@ class CalculatorSearch extends Component {
   }
 }
 
-function matchStateToTerm (state, value) {
+export function matchStateToTerm (state, value) {
   const name = getName(value);
   if (!name || name.length < 2) {
     return false;
