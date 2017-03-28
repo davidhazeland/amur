@@ -5,7 +5,7 @@ import styles from 'styles';
 
 const Navigation = () => {
   return (
-    <div className="Navigation" style={styles.computerOnly}>
+    <div className="Navigation three wide column" style={styles.computerOnly}>
       <div className="ui vertical menu">
         <div className="item">
           <div className="ui input"><input type="text" placeholder="Roar oh oh..."/></div>

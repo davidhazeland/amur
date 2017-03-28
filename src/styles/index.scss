@@ -1,12 +1,11 @@
 @import "~semantic-ui-css/semantic.css";
 
-#root {
-  height: 100%;
-}
-
 .App {
-  position: relative;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .Header {
@@ -35,6 +34,7 @@
 }
 
 .Calculator {
+  max-width: 700px;
   .prompt {
     width: 300px;
     border-radius: 4px !important;

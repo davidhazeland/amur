@@ -1,10 +1,10 @@
 @import url(~semantic-ui-css/semantic.css);
-#root {
-  height: 100%; }
-
 .App {
-  position: relative;
-  height: 100%; }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
 
 .Header .brand {
   color: #2E2F48 !important;
@@ -21,6 +21,9 @@
 
 .Navigation .ui.menu {
   width: 220px !important; }
+
+.Calculator {
+  max-width: 700px; }
 
 .Calculator .prompt {
   width: 300px;

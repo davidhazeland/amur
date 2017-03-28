@@ -1,7 +1,19 @@
 import React from 'react';
+import Radium from 'radium';
 
 import Search from './calculator-search';
 import MealList from './meal-list';
+
+import {mobile, tablet} from 'styles';
+
+const style = {
+  [mobile]: {
+    marginTop: '1rem'
+  },
+  [tablet]: {
+    margin: '1rem'
+  }
+}
 
 const Calculator = (props) => {
   const {
@@ -35,7 +47,7 @@ const Calculator = (props) => {
   }
 
   return (
-    <div className="Calculator">
+    <div className="Calculator" style={style}>
       <Search foodList={foodList} onSelect={handleSelect}/>
 
       <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
@@ -51,4 +63,4 @@ Calculator.propTypes = {
 
 Calculator.displayName = 'Calculator';
 
-export default Calculator;
+export default Radium(Calculator);

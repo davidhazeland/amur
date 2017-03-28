@@ -1,11 +1,15 @@
 import React from 'react';
 import Radium from 'radium';
 
+import {computer} from 'styles';
+
+import Navigation from './navigation';
+
 const style = {
   width: '100%',
   minHeight: '300px',
 
-  '@media only screen and (min-width: 768px)': {
+  [computer]: {
     paddingLeft: '270px',
     paddingRight: '10px',
     position: 'absolute',
@@ -15,8 +19,11 @@ const style = {
 
 const Content = ({children}) => {
   return (
-    <div className="Content" style={style}>
-      {children}
+    <div className="Content ui fluid container">
+      <Navigation/>
+      <div style={style}>
+        {children}
+      </div>
     </div>
   )
 };

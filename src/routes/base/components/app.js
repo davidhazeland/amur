@@ -5,7 +5,6 @@ import React, {Component} from 'react';
 
 import Content from './content';
 import Header from './header';
-import Navigation from './navigation';
 
 import { Sidebar as SidebarComponent } from 'semantic-ui-react';
 
@@ -35,7 +34,6 @@ class App extends Component {
           <Sidebar visible={this.state.sidebarVisible}/>
           <SidebarComponent.Pusher>
             <Header {...this.props} onToggleSidebar={this.handleToggleSidebar.bind(this)}/>
-            <Navigation />
             <Content>
               {this.props.children}
             </Content>

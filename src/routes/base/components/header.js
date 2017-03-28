@@ -19,7 +19,7 @@ const Header = (props) => {
       active: path === to
     });
     return (
-      <div style={styles.computerOnly}>
+      <div style={styles.mobileHidden}>
         <Link to={to} className={classes}>{name}</Link>
       </div>
     );
@@ -31,7 +31,7 @@ const Header = (props) => {
         <div className="item" onClick={onToggleSidebar} style={styles.mobileOnly}>
           <Icon name="sidebar"></Icon>
         </div>
-        <div style={styles.computerOnly}>
+        <div style={styles.mobileHidden}>
           <Link to="/" className="item brand">
               <img className="logo" src={logo} alt=""/>
               Amur
