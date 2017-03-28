@@ -3,7 +3,7 @@ import {call, put, take, fork} from 'redux-saga/effects';
 import * as actionTypes from '../action-types';
 import {actions as initialActions} from 'ironlake/businesses/initial';
 
-import {getFoodList} from 'businesses/calculator/sagas/initialize';
+import {getFoodList} from 'sagas/list';
 
 export function* handle() {
   try {
