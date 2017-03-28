@@ -1,4 +1,5 @@
 require('normalize.css');
+require('styles/index.css');
 
 import createContent from './content';
 import Header from './header';

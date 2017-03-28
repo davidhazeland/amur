@@ -1,6 +1,4 @@
-
-
-require('styles/components/Content.scss');
+require('styles/components/Content.css');
 
 export default React => ({children}) => {
   return (
