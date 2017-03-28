@@ -5,16 +5,18 @@
 .Header .brand {
   color: #2E2F48 !important;
   padding: 8px 15px !important; }
-  .Header .brand .logo {
-    height: 24px;
-    width: auto !important;
-    margin-right: 8px !important; }
+
+.Header .brand .logo {
+  height: 24px;
+  width: auto !important;
+  margin-right: 8px !important; }
 
 .Navigation {
   margin: 20px 15px;
   float: left; }
-  .Navigation .ui.menu {
-    width: 220px !important; }
+
+.Navigation .ui.menu {
+  width: 220px !important; }
 
 .Calculator .prompt {
   width: 300px;
@@ -23,10 +25,11 @@
 .CalculatorSearch .results {
   max-height: 289px;
   overflow: hidden; }
-  .CalculatorSearch .results .result .title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
+
+.CalculatorSearch .results .result .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 .FoodList .react-bs-container-header .table {
   margin-bottom: 10px; }
