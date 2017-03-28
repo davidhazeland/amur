@@ -1,0 +1,48 @@
+@import url(~semantic-ui-css/semantic.css);
+.App {
+  position: relative; }
+
+.Header .brand {
+  color: #2E2F48 !important;
+  padding: 8px 15px !important; }
+  .Header .brand .logo {
+    height: 24px;
+    width: auto !important;
+    margin-right: 8px !important; }
+
+.Navigation {
+  margin: 20px 15px;
+  float: left; }
+  .Navigation .ui.menu {
+    width: 220px !important; }
+
+.Calculator .prompt {
+  width: 300px;
+  border-radius: 4px !important; }
+
+.CalculatorSearch .results {
+  max-height: 289px;
+  overflow: hidden; }
+  .CalculatorSearch .results .result .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+.FoodList .react-bs-container-header .table {
+  margin-bottom: 10px; }
+
+.FoodList .react-bs-container-body .table {
+  margin-bottom: 0; }
+
+.FoodList .sort-column {
+  cursor: default; }
+
+.MealList--actions {
+  width: 50px; }
+
+.MealList .red.remove.icon {
+  display: none;
+  cursor: pointer; }
+
+.MealList tr:hover .red.remove.icon {
+  display: inline-block; }

@@ -1,21 +1,23 @@
-import config from 'config';
 import { createStore, applyMiddleware } from 'redux';
 import createLogger from 'redux-logger';
 import createSagaMiddleware from 'redux-saga';
 import {routerMiddleware} from 'react-router-redux';
 import {browserHistory} from 'react-router';
 
+import thunk from 'redux-thunk';
+
 const reducers = require('../reducers');
 const sagas = require('../sagas');
 
 const loggerMiddleware = createLogger({
-  predicate: () => config.appEnv === 'dev'
+  predicate: () => process.env.NODE_ENV === 'development'
 });
 
 const sagaMiddleware = createSagaMiddleware();
 
 export default function (initialState) {
   const store = createStore(reducers, applyMiddleware(
+    thunk,
     sagaMiddleware,
     routerMiddleware(browserHistory),
     loggerMiddleware // neat middleware that logs actions

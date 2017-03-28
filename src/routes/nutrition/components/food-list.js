@@ -1,4 +1,4 @@
-'use strict';
+
 
 import React from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
@@ -33,7 +33,7 @@ function sortFunc(a, b, order, field) {
 }
 
 export function compare(x, y, order) {
-  if (x == y) {
+  if (x === y) {
     return 0;
   }
 

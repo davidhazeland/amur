@@ -1,4 +1,4 @@
-'use strict';
+
 
 import {call, put, take, fork} from 'redux-saga/effects';
 import {pick} from 'lodash/object';

@@ -1,6 +1,5 @@
 require('normalize.css');
-require('bootstrap-loader');
-require('styles/index.scss');
+require('styles/index.css');
 
 import createContent from './content';
 import Header from './header';
