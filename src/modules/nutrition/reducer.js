@@ -1,4 +1,4 @@
-'use strict';
+
 
 import freeze from 'deep-freeze';
 import * as actionTypes from './action-types';

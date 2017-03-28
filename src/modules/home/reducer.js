@@ -1,4 +1,4 @@
-'use strict';
+
 
 import freeze from 'deep-freeze';
 import * as actionTypes from './action-types';
@@ -19,7 +19,7 @@ export default function (state = initialState, action) {
       const {meal} = action;
       const {mealList} = state;
 
-      const index = mealList.findIndex(m => m.food.id == meal.food.id);
+      const index = mealList.findIndex(m => m.food.id === meal.food.id);
 
       if (index !== -1) {
         return freeze({
@@ -47,7 +47,7 @@ export default function (state = initialState, action) {
     case actionTypes.REMOVE_MEAL: {
       const {meal} = action;
       const {mealList} = state;
-      const index = mealList.findIndex(m => m.food.id == meal.food.id);
+      const index = mealList.findIndex(m => m.food.id === meal.food.id);
 
       return freeze({
         ...state,

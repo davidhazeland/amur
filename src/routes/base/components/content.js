@@ -1,4 +1,4 @@
-'use strict';
+
 
 require('styles/components/Content.scss');
 
