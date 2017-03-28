@@ -1,5 +1,3 @@
-
-
 import React, {
   Component,
   PropTypes
@@ -9,12 +7,13 @@ import { connect } from 'react-redux';
 
 import DocumentTitle from 'react-document-title';
 
-import {actions as myActions} from 'businesses/nutrition';
+import {actions as myActions} from 'businesses/calculator';
+import {actions as notificationActions} from 'ironlake/businesses/notification';
 import {actions as initialActions, selectors as initialSelectors} from 'ironlake/businesses/initial';
 
-import NutritionComponent from '../components/nutrition';
+import CalculatorComponent from '../components/calculator';
 
-class Nutrition extends Component {
+class Calculator extends Component {
   componentDidMount() {
     this.props.actions.initialize();
   }
@@ -22,19 +21,20 @@ class Nutrition extends Component {
   componentWillUnmount() {
     this.props.actions.clear();
     this.props.actions.clearInitial();
+    this.props.actions.clearNotification();
   }
 
   render() {
-    const title = 'Nutrition';
+    const title = 'Calculator';
     return (
     <DocumentTitle title={title}>
-      <NutritionComponent {...this.props}/>
+      <CalculatorComponent {...this.props}/>
     </DocumentTitle>
     );
   }
 }
 
-Nutrition.propTypes = {
+Calculator.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
@@ -42,13 +42,15 @@ function mapStateToProps(state) {
   return {
     Initial: initialSelectors.get({
       foodList: []
-    })(state)
+    })(state),
+    Calculator: state.Calculator,
+    Notification: state.Notification
   };
 }
 function mapDispatchToProps(dispatch) {
-  const actions = Object.assign({}, initialActions, myActions, {
+  const actions = Object.assign({}, notificationActions, initialActions, myActions, {
 
   });
   return { actions: bindActionCreators(actions, dispatch) };
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Nutrition);
+export default connect(mapStateToProps, mapDispatchToProps)(Calculator);

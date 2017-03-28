@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 import Search from './calculator-search';
@@ -7,8 +5,12 @@ import MealList from './meal-list';
 
 const Calculator = (props) => {
   const {
-    data,
-    mealList,
+    Initial: {
+      foodList
+    },
+    Calculator: {
+      mealList
+    },
     actions: {
       addMeal,
       removeMeal,
@@ -38,7 +40,7 @@ const Calculator = (props) => {
 
   return (
     <div className="Calculator" style={style}>
-      <Search foodList={data} onSelect={handleSelect}/>
+      <Search foodList={foodList} onSelect={handleSelect}/>
 
       <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
 
@@ -46,6 +48,10 @@ const Calculator = (props) => {
     </div>
   );
 };
+
+Calculator.propTypes = {
+
+}
 
 Calculator.displayName = 'Calculator';
 

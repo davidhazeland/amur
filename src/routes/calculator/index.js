@@ -1,14 +1,12 @@
-
-
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import Home from './containers/home';
+import Calculator from './containers/calculator';
 
-export const component = Home;
+export const component = Calculator;
 
 export default path => (
   <Route path={path}>
-    <IndexRoute component={Home}/>
+    <IndexRoute component={component}/>
   </Route>
 );

@@ -1,6 +1,27 @@
+import reducer, {initialState} from '../reducer';
+import * as actions from '../actions';
+
+describe('Calculator', function() {
+  describe('[Reducer]', function() {
+    test('Handle CLEAR action', () => {
+      const state = {};
+      const action = actions.clear();
+      const nextState = reducer(state, action);
+
+      let actual;
+      let expected;
+
+      actual = nextState;
+      expected = initialState;
+
+      expect(actual).toEqual(expected);
+    });
+  });
+});
+
 import test from 'tape';
 import freeze from 'deep-freeze';
-import reducer, {actions} from 'modules/home';
+import reducer, {actions} from 'modules/calculator';
 
 test('[Home module] reducer', assert => {
   const state = freeze({});

@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 import {format} from 'utils/food';

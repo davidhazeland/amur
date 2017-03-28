@@ -1,7 +1,5 @@
-
-
 import React, {Component} from 'react';
-import {Autocomplete} from 'modules/components';
+import {Autocomplete} from 'businesses/components';
 import cx from 'classnames';
 
 import {resolve, getName, toBase} from 'utils/food';

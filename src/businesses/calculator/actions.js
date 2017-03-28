@@ -7,9 +7,9 @@ export const clear = (parameter) => {
   }
 };
 
-export const getInitialDataRequest = (parameter) => {
+export const initialize = (parameter) => {
   return {
-    type: actionTypes.GET_INITIAL_DATA_REQUEST,
+    type: actionTypes.INITIALIZE,
     ...parameter
   }
 };

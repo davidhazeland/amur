@@ -1,17 +1,15 @@
-
-
 import {call, put, take, fork} from 'redux-saga/effects';
 
 import * as actionTypes from '../action-types';
-import {actions as initialDataActions} from 'modules/initial-data';
+import {actions as initialActions} from 'ironlake/businesses/initial';
 
-import {getFoodList} from 'modules/home/sagas/get-initial-data-request';
+import {getFoodList} from 'businesses/calculator/sagas/initialize';
 
 export function* handle() {
   try {
     const foodList = yield call(getFoodList);
 
-    yield put(initialDataActions.set({
+    yield put(initialActions.set({
       foodList
     }));
   }
@@ -22,7 +20,7 @@ export function* handle() {
 
 export default function* () {
   while (true) {
-    const action = yield take(actionTypes.GET_INITIAL_DATA_REQUEST);
+    const action = yield take(actionTypes.INITIALIZE);
 
     yield fork(handle, action);
   }

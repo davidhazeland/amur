@@ -1,10 +1,8 @@
-
-
 import {call, put, take, fork} from 'redux-saga/effects';
 import {pick} from 'lodash/object';
 
 import * as actionTypes from '../action-types';
-import {actions as initialDataActions} from 'modules/initial-data';
+import {actions as initialActions} from 'ironlake/businesses/initial';
 
 import {fetch as fetchAnimals} from 'api/animal';
 import {fetch as fetchVegetables} from 'api/vegetable';
@@ -31,7 +29,7 @@ export function* handle() {
   try {
     const foodList = yield call(getFoodList);
 
-    yield put(initialDataActions.set({
+    yield put(initialActions.set({
       foodList
     }));
   }
@@ -42,7 +40,7 @@ export function* handle() {
 
 export default function* () {
   while (true) {
-    const action = yield take(actionTypes.GET_INITIAL_DATA_REQUEST);
+    const action = yield take(actionTypes.INITIALIZE);
 
     yield fork(handle, action);
   }

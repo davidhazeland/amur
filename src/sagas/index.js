@@ -1,15 +1,14 @@
-import { sagas as Nutrition } from 'modules/nutrition';
-import { sagas as InitialData } from 'modules/initial-data';
-import { sagas as Home } from 'modules/home';
+import { sagas as Calculator } from 'businesses/calculator';
+import { sagas as Nutrition } from 'businesses/nutrition';
+import { sagas as Initial } from 'ironlake/businesses/initial';
 import { flatten } from 'lodash/array';
 import { values } from 'lodash/object';
 const sagasList = [
+  Calculator,
   Nutrition,
-  InitialData,
-  Home
+  Initial
 ];
-import {fork} from 'redux-saga/effects';
-
+import { fork } from 'redux-saga/effects';
 module.exports = function* () {
   yield flatten(sagasList.map(sagas => values(sagas))).map(saga => fork(saga));
 };
