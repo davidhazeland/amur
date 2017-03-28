@@ -1,14 +1,19 @@
 @import "~semantic-ui-css/semantic.css";
 
+#root {
+  height: 100%;
+}
+
 .App {
   position: relative;
+  height: 100%;
 }
 
 .Header {
   .brand {
     color: #2E2F48 !important;
     // color: #BF3846 !important;
-    padding: 8px 15px !important;
+    padding: 7px 15px !important;
     .logo {
       height: 24px;
       width: auto !important;

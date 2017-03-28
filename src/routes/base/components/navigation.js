@@ -1,10 +1,11 @@
-
-
 import React from 'react';
+import Radium from 'radium';
+
+import styles from 'styles';
 
 const Navigation = () => {
   return (
-    <div className="Navigation">
+    <div className="Navigation" style={styles.computerOnly}>
       <div className="ui vertical menu">
         <div className="item">
           <div className="ui input"><input type="text" placeholder="Roar oh oh..."/></div>
@@ -30,4 +31,4 @@ const Navigation = () => {
 
 Navigation.displayName = 'Navigation';
 
-export default Navigation;
+export default Radium(Navigation);
