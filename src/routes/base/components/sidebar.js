@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Link} from 'react-router';
-
+import cx from 'classnames';
 import { Sidebar as SidebarComponent, Menu, Image } from 'semantic-ui-react';
 
 import logo from 'images/logo-white.png';
@@ -10,10 +10,11 @@ const Sidebar = (props) => {
   const {visible, path} = props;
 
   const renderTab = (to, name) => {
+    const classes = cx('item', {
+      active: path === to
+    });
     return (
-      <Menu.Item active={path === to}>
-        <Link to={to}>{name}</Link>
-      </Menu.Item>
+      <Link to={to} className={classes}>{name}</Link>
     );
   }
 
@@ -22,7 +23,7 @@ const Sidebar = (props) => {
       <Menu.Item name='gamepad'>
         <Image src={logo} width="30" />
       </Menu.Item>
-      
+
       {renderTab('/', 'Home')}
       {renderTab('/nutrition', 'Nutrition')}
 
