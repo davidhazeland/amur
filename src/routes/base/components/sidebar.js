@@ -6,6 +6,8 @@ import { Sidebar as SidebarComponent, Menu, Image } from 'semantic-ui-react';
 
 import logo from 'images/logo-white.png';
 
+import {Translate} from 'react-redux-i18n';
+
 const Sidebar = (props) => {
   const {visible, path} = props;
 
@@ -24,8 +26,8 @@ const Sidebar = (props) => {
         <Image src={logo} width="30" />
       </Menu.Item>
 
-      {renderTab('/', 'Home')}
-      {renderTab('/nutrition', 'Nutrition')}
+      {renderTab('/', <Translate value="base.home"/>)}
+      {renderTab('/nutrition', <Translate value="base.nutrition"/>)}
 
       <Menu.Item target="_blank" href="https://github.com/davidhazeland/amur">
         Github

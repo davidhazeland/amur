@@ -2,6 +2,8 @@ import React from 'react';
 
 import {format} from 'utils/food';
 
+import {Translate} from 'react-redux-i18n';
+
 const MealList = ({data = [], onRemoveMeal}) => {
   const total = calculateTotal(data);
 
@@ -9,7 +11,7 @@ const MealList = ({data = [], onRemoveMeal}) => {
     <table className="MealList ui orange table">
       <thead>
         <tr>
-          <th>Food</th>
+          <th><Translate value="calculator.food"/></th>
           <th>Carb (g)</th>
           <th>Fat (g)</th>
           <th>Protein (g)</th>
@@ -34,7 +36,9 @@ const MealList = ({data = [], onRemoveMeal}) => {
                 <td>{round(protein)}</td>
                 <td>{round(calo)}</td>
                 <td className="right aligned">
-                  <button className="ui basic negative mini button" onClick={onRemoveMeal.bind(null, item)}>Remove</button>
+                  <button className="ui basic negative mini button" onClick={onRemoveMeal.bind(null, item)}>
+                    <Translate value="calculator.remove"/>
+                  </button>
                 </td>
             </tr>
           );
@@ -42,7 +46,7 @@ const MealList = ({data = [], onRemoveMeal}) => {
       </tbody>
       <tfoot>
         <tr>
-          <th>Total</th>
+          <th><Translate value="calculator.total"/></th>
           <th>{round(total.carb)}</th>
           <th>{round(total.fat)}</th>
           <th>{round(total.protein)}</th>
