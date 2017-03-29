@@ -28,12 +28,13 @@ class App extends Component {
   }
 
   render() {
+    const {path} = this.props;
     return (
       <StyleRoot>
         <SidebarComponent.Pushable className="App">
-          <Sidebar visible={this.state.sidebarVisible}/>
+          <Sidebar visible={this.state.sidebarVisible} path={path}/>
           <SidebarComponent.Pusher>
-            <Header {...this.props} onToggleSidebar={this.handleToggleSidebar.bind(this)}/>
+            <Header path={path} onToggleSidebar={this.handleToggleSidebar.bind(this)}/>
             <Content>
               {this.props.children}
             </Content>

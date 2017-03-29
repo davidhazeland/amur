@@ -14,6 +14,7 @@ const Header = (props) => {
     path,
     onToggleSidebar
   } = props;
+
   const renderTab = (to, name) => {
     const classes = cx('item', {
       active: path === to
@@ -37,8 +38,10 @@ const Header = (props) => {
               Amur
           </Link>
         </div>
+
         {renderTab('/', 'Home')}
         {renderTab('/nutrition', 'Nutrition')}
+
         <div className="right menu">
           <a target="_blank" href="https://github.com/davidhazeland/amur" className="ui item">
             Github
