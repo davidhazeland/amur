@@ -6,8 +6,9 @@ import {Link} from 'react-router';
 import {Icon} from 'semantic-ui-react';
 
 import logo from 'images/logo.png';
-
 import styles from 'styles';
+
+import {Translate} from 'react-redux-i18n';
 
 const Header = (props) => {
   const {
@@ -39,8 +40,8 @@ const Header = (props) => {
           </Link>
         </div>
 
-        {renderTab('/', 'Home')}
-        {renderTab('/nutrition', 'Nutrition')}
+        {renderTab('/', <Translate value="base.home"/>)}
+        {renderTab('/nutrition', <Translate value="base.nutrition"/>)}
 
         <div className="right menu">
           <a target="_blank" href="https://github.com/davidhazeland/amur" className="ui item">

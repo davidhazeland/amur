@@ -1,6 +1,8 @@
 import React from 'react';
 import Radium from 'radium';
 
+import {Translate} from 'react-redux-i18n';
+
 import Search from './calculator-search';
 import MealList from './meal-list';
 
@@ -52,7 +54,9 @@ const Calculator = (props) => {
 
       <MealList data={mealList} onRemoveMeal={handleRemove}></MealList>
 
-      <button className="ui right floated primary button" onClick={handleReset}>Reset</button>
+      <button className="ui right floated primary button" onClick={handleReset}>
+        <Translate value="calculator.reset"/>
+      </button>
     </div>
   );
 };
