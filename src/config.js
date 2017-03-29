@@ -1,7 +1,7 @@
 const base = {
   dateFormat: 'YYYY-MM-DD',
   datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
-  lang: 'vn'
+  lang: 'en'
 };
 
 const env = {
