@@ -33,8 +33,8 @@ const MealList = ({data = [], onRemoveMeal}) => {
                 <td>{round(fat)}</td>
                 <td>{round(protein)}</td>
                 <td>{round(calo)}</td>
-                <td>
-                  <i className="red remove icon" onClick={onRemoveMeal.bind(null, item)}></i>
+                <td className="right aligned">
+                  <button className="ui basic negative mini button" onClick={onRemoveMeal.bind(null, item)}>Remove</button>
                 </td>
             </tr>
           );

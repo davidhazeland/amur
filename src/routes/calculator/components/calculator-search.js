@@ -22,8 +22,8 @@ class CalculatorSearch extends Component {
       <div className="CalculatorSearch">
         <Autocomplete
           value={this.state.value}
-          wrapperProps={{className:'ui search focus'}}
-          inputProps={{placeholder: '300g beef...', id: 'states-autocomplete', className: 'prompt'}}
+          wrapperProps={{className:'ui large fluid search input', style:{display: 'flex'}}}
+          inputProps={{placeholder: '300g beef...', id: 'states-autocomplete'}}
           items={foodList}
           getItemValue={(item) => item.name}
           onChange={(event, value) => {

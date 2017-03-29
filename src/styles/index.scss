@@ -35,13 +35,10 @@
 
 .Calculator {
   max-width: 700px;
-  .prompt {
-    width: 300px;
-    border-radius: 4px !important;
-  }
 }
 
 .CalculatorSearch {
+  max-width: 300px;
   .results {
     max-height: 289px;
     overflow: hidden;
