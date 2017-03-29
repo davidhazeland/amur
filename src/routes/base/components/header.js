@@ -1,32 +1,47 @@
-
-
 import React from 'react';
 import cx from 'classnames';
+import Radium from 'radium';
 
 import {Link} from 'react-router';
+import {Icon} from 'semantic-ui-react';
 
 import logo from 'images/logo.png';
 
+import styles from 'styles';
+
 const Header = (props) => {
-  const {path} = props;
+  const {
+    path,
+    onToggleSidebar
+  } = props;
+
   const renderTab = (to, name) => {
     const classes = cx('item', {
       active: path === to
     });
     return (
-      <Link to={to} className={classes}>{name}</Link>
+      <div style={styles.mobileHidden}>
+        <Link to={to} className={classes}>{name}</Link>
+      </div>
     );
   }
 
   return (
     <div className="Header">
       <div className="ui secondary pointing menu">
-        <Link to="/" className="brand item">
-            <img className="logo" src={logo} alt=""/>
-            Amur
-        </Link>
+        <div className="item" onClick={onToggleSidebar} style={styles.mobileOnly}>
+          <Icon name="sidebar"></Icon>
+        </div>
+        <div style={styles.mobileHidden}>
+          <Link to="/" className="item brand">
+              <img className="logo" src={logo} alt=""/>
+              Amur
+          </Link>
+        </div>
+
         {renderTab('/', 'Home')}
         {renderTab('/nutrition', 'Nutrition')}
+
         <div className="right menu">
           <a target="_blank" href="https://github.com/davidhazeland/amur" className="ui item">
             Github
@@ -39,4 +54,4 @@ const Header = (props) => {
 
 Header.displayName = 'Header';
 
-export default Header;
+export default Radium(Header);

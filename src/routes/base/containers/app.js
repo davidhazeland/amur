@@ -1,20 +1,17 @@
-
-
 import React, {
   Component,
   PropTypes
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import createApp from '../components/app';
+import AppComponent from '../components/app';
 
 class App extends Component {
   render() {
-    const App = createApp(React);
     return (
-      <App {...this.props}>
+      <AppComponent {...this.props}>
         {this.props.children}
-      </App>
+      </AppComponent>
     );
   }
 }

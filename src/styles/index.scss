@@ -1,14 +1,18 @@
 @import "~semantic-ui-css/semantic.css";
 
 .App {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .Header {
   .brand {
     color: #2E2F48 !important;
     // color: #BF3846 !important;
-    padding: 8px 15px !important;
+    padding: 7px 15px !important;
     .logo {
       height: 24px;
       width: auto !important;
@@ -30,13 +34,11 @@
 }
 
 .Calculator {
-  .prompt {
-    width: 300px;
-    border-radius: 4px !important;
-  }
+  max-width: 700px;
 }
 
 .CalculatorSearch {
+  max-width: 300px;
   .results {
     max-height: 289px;
     overflow: hidden;

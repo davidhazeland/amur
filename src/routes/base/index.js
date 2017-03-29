@@ -5,12 +5,12 @@ import App from './containers/app';
 
 import NutritionRoute from 'routes/nutrition';
 
-import {component as Home} from 'routes/home';
+import {component as Calculator} from 'routes/calculator';
 
 export default () => {
   return (
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      <IndexRoute component={Calculator}/>
       {NutritionRoute('nutrition')}
     </Route>
   );
